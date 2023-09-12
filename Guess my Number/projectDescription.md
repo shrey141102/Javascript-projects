@@ -42,11 +42,11 @@ You don't need to install anything to play this game. Just open the HTML file in
 
 ## Contributions
 
-- 1. [Devakinandan23]
+- 1. [[Devakinandan23](https://github.com/Devakinandan23)]
 If you'd like to contribute to this game or suggest improvements, please feel free to open an issue or create a pull request on the GitHub repository.
 
 ## Credits
 
-This game was created by K.Devakinandan . If you have any questions or feedback, you can contact me at [nandandevaki6@gmail.com] .
+This game was created by K.Devakinandan. If you have any questions or feedback, you can contact me at [nandandevaki6@gmail.com].
 
-Enjoy playing the Guess the Number Game! Have fun, play with your friends and challenge yourself to beat your high score!
+Enjoy playing the Guess the Number Game! Have fun, play with your friends, and challenge yourself to beat your high score!
