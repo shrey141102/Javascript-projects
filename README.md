@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Javascript Projects</h1>
 
-<p align="center"><img src="https://socialify.git.ci/shrey141102/Javascript-projects/image?description=1&amp;descriptionEditable=A%20collection%20of%20many%20javascript%20projects.%20%0AFeel%20free%20to_%20contribute%2C%20add%20projects%20or%20make%20changes%20to%20it.&amp;font=Source%20Code%20Pro&amp;forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Floating%20Cogs&amp;pulls=1&amp;stargazers=1&amp;theme=Auto" alt="project-image"></p>
+<p align="center"><img src="https://socialify.git.ci/shrey141102/Javascript-projects/image?description=1&amp;descriptionEditable=A%20collection%20of%20many%20javascript%20projects.%20%0AFeel%20free%20to_%20contribute%2C%20add%20projects%20or%20make%20changes%20to%20it.&amp;font=Source%20Code%20Pro&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Floating%20Cogs&amp;theme=Auto" alt="project-image"></p>
 
 <h2>🤩List of projects:</h2>
 
