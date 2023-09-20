@@ -2,6 +2,9 @@ name: Lint Code Base
 
 on: [push, pull_request]
 
+env:
+    GITHUB_TOKEN: ${{github.token}}
+    
 jobs:
   build:
     name: Lint Code Base
