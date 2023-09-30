@@ -6,6 +6,7 @@
 
 - Calculator
 - Guess my number
+- Drum Kit
 
 <h2>🍰 Contribution Guidelines:</h2>
 
