@@ -7,6 +7,7 @@
 - Calculator
 - Guess my number
 - Drum Kit
+- To-Do
 
 <h2>🍰 Contribution Guidelines:</h2>
 
