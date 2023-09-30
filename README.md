@@ -6,6 +6,7 @@
 
 - Calculator
 - Guess my number
+- To-Do
 
 <h2>🍰 Contribution Guidelines:</h2>
 
