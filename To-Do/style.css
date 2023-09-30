@@ -87,6 +87,9 @@ body{
     scale: 1.1;
     transition: 0.5s;
 }
+.noneDisplay{
+    display: none;
+}
 .heading{
     margin: 0px;
     font-size: 100px;
@@ -141,6 +144,9 @@ body{
 }
 
 .EachTodo{
+    animation: downTotop;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-out;
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
@@ -191,3 +197,7 @@ body{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 }
+@keyframes downTotop {
+    from {translate: 0px 100px;opacity: 0;}
+    to {translate: 0px 0px;opacity: 1;}
+  }
