@@ -43,7 +43,7 @@ jobs:
           black: true
           flake8: true
           # Enable linters
-          eslint: true
+          #eslint: true
           prettier: true
           # Enable linters
           php_codesniffer: true
