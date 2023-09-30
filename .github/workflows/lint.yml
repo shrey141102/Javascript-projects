@@ -39,13 +39,13 @@ jobs:
         uses: wearerequired/lint-action@v1
         with:
           github_token: ${{ secrets.github_token }}
-          # Enable linters
+
           black: true
           flake8: true
-          # Enable linters
+
           #eslint: true
-          prettier: true
-          # Enable linters
+          #prettier: true
+
           php_codesniffer: true
-          # Optional: Ignore warnings
+          # Ignore warnings
           php_codesniffer_args: "-n"
