@@ -10,6 +10,7 @@
 - To-Do
 - Temperature Converter
 - BMI
+- Happy Birthday Wisher
 
 <h2>🍰 Contribution Guidelines:</h2>
 
