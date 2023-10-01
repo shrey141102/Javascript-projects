@@ -7,6 +7,7 @@
 - Calculator
 - Guess my number
 - To-Do
+- Temperature Converter
 
 <h2>🍰 Contribution Guidelines:</h2>
 
