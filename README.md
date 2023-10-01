@@ -9,6 +9,7 @@
 - Drum Kit
 - To-Do
 - Temperature Converter
+- BMI
 
 <h2>🍰 Contribution Guidelines:</h2>
 
