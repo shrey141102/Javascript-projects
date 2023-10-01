@@ -7,13 +7,20 @@
     <title>BMI Calculator</title>
 </head>
 <body>
+    <div class="popupbackground noneDisplay">
+        <div class="popup">
+         <h1 class="popupheading">Your BMI Is: </h1>
+         <h1 class="popupheading2">38.3</h1>
+         <button class="OkeyButton" onclick="OkeyClick()">Okey</button>
+    </div>
+    </div>
     <div class="mainContainer">
     <h1 class="heading">Body Mass</h1>
     <h1 class="heading1">Index</h1>
     <h1 class="subheading">Gender:</h1>
-    <select name="cars" id="cars">
-        <option value="volvo">Male</option>
-        <option value="saab">Female</option>
+    <select name="gender" id="gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
     </select>
     <h1 class="subheading">Height:</h1>
     <input class="heightInput" placeholder="Enter your height in cm" type="number"/><span class="symbol">CM</span>
@@ -27,7 +34,8 @@
             <input class="WeightInput" placeholder="kg" type="number"/>
         </div>
     </div>
-    <button class="calculateButton">Calculate</button>
+    <button class="calculateButton" onclick="calculate()">Calculate</button>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
