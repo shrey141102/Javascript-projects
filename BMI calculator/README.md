@@ -2,6 +2,9 @@
 
 "BMI" is a web-based project that offers users the ability to Calculate there Body Mass Index
 
+![Screenshot (90)](https://github.com/Infinite-Null/Javascript-projects/assets/97950192/938250a4-ab7b-48d0-ba7e-5bc1c290feda)
+![Screenshot (91)](https://github.com/Infinite-Null/Javascript-projects/assets/97950192/e036889b-a5b2-473b-bae7-fd434fae486f)
+
 
 ## Instruction
 
