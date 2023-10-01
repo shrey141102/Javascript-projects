@@ -23,15 +23,15 @@
         <option value="Female">Female</option>
     </select>
     <h1 class="subheading">Height:</h1>
-    <input class="heightInput" placeholder="Enter your height in cm" type="number"/><span class="symbol">CM</span>
+    <input class="heightInput" placeholder="Enter your height in cm" min="0" type="number"/><span class="symbol">CM</span>
     <div class="ageAndweightcontainer">
         <div class="EachContainer">
             <h1 class="subheading">Age</h1>
-            <input class="AgeInput" type="number"/>
+            <input class="AgeInput" min="0" type="number"/>
         </div>
         <div class="EachContainer">
             <h1 class="subheading">Weight</h1>
-            <input class="WeightInput" placeholder="kg" type="number"/>
+            <input class="WeightInput" placeholder="kg" min="0" type="number"/>
         </div>
     </div>
     <button class="calculateButton" onclick="calculate()">Calculate</button>
