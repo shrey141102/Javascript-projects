@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="author" content="Parmesh Bhatt">
+     <title>Temperature Converter</title>
+     <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+     <div class="container">
+          <h2><u><b>Temperature Converter</b></u></h2>
+          <h3><u>NOTE</u>: Enter only value and then select the options. Don't write the other things only write value in the value selection</h3>
+          Temperature value: <input type="number" name="temp" id="temp" placeholder="Enter the temperature" required autofocus>
+          <h3>Please write the unit from Celsius, fahrenheit, and kelvin</h3>
+          Unit: <input type="text" name="unit1" id="unit1" placeholder="unit" required>
+          <!-- <h3>Select the temperature in which do you want to convert it.</h3> -->
+          <h3>Please write the unit from Celsius, fahrenheit, and kelvin</h3>
+          Unit: <input type="text" name="unit2" id="unit2" placeholder="unit" required>
+          <br><br>
+          <button type="convert" onclick="convert();">convert</button>
+          <br>
+          <br>
+          The converted temperature is 
+          <div class="answer" id="answer"></div>
+     </div>
+     <script src="./demo.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+.container{
+     display: inline-block;
+     text-align: center;
+     font-size: larger;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: bolder;
+     border-radius: 5px;
+}
+
+h3{
+     color:red;
+}
+
+select, button{
+     font-size: medium;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     padding: 4px;
+     border-radius: 5px;
+}
+
+.answer{
+     color:red;
+}
