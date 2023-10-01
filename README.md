@@ -8,6 +8,7 @@
 - Guess my number
 - Drum Kit
 - To-Do
+- Temperature Converter
 
 <h2>🍰 Contribution Guidelines:</h2>
 
