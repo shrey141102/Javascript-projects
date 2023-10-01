@@ -9,8 +9,8 @@ function calculate(){
         alert("Please fill all the feilds")
     }
     else{
-        const height=parseInt(parseInt(heightInput[0].value)/100)
-        const weight=parseInt(weightInput[0].value)
+        const height=parseFloat(parseInt(heightInput[0].value)/100).toFixed(2)
+        const weight=parseFloat(weightInput[0].value)
         const BMI=parseFloat(weight/(height*height)).toFixed(2)
         result[0].innerHTML=BMI
         popUp[0].classList.remove("noneDisplay")
