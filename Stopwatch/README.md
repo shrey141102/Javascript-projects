@@ -2,6 +2,11 @@
 
 "Stopwatch" is a web-based project in wich user can track their time taken to do a activity.
 
+![Screenshot (94)](https://github.com/Infinite-Null/Javascript-projects/assets/97950192/5a277636-3926-43cd-adac-cc247b88e299)
+![Screenshot (95)](https://github.com/Infinite-Null/Javascript-projects/assets/97950192/e1a15bac-d3db-4c97-810c-0ee94c8c7fb5)
+![Screenshot (96)](https://github.com/Infinite-Null/Javascript-projects/assets/97950192/08a578ec-f2ec-47b7-9f4c-421c3b58e34e)
+
+
 ## Instruction
 
 1. **Start**: Start will start the timer.
