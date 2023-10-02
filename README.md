@@ -13,6 +13,7 @@
 - Happy Birthday Wisher
 - Micro Code Editor in the Browser
 - E-Commerce Website
+- Stopwatch
 
 <h2>🍰 Contribution Guidelines:</h2>
 
