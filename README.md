@@ -12,6 +12,7 @@
 - BMI
 - Happy Birthday Wisher
 - Micro Code Editor in the Browser
+- E-Commerce Website
 
 <h2>🍰 Contribution Guidelines:</h2>
 
