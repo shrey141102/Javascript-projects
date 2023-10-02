@@ -11,6 +11,7 @@
 - Temperature Converter
 - BMI
 - Happy Birthday Wisher
+- Micro Code Editor in the Browser
 
 <h2>🍰 Contribution Guidelines:</h2>
 
