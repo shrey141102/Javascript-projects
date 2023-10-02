@@ -14,6 +14,7 @@
 - Micro Code Editor in the Browser
 - E-Commerce Website
 - Stopwatch
+- Javascript Projects Main Website
 
 <h2>🍰 Contribution Guidelines:</h2>
 
