@@ -16,6 +16,7 @@
 - Stopwatch
 - Simon Game
 - Javascript Projects Main Website
+- Rock Paper Scissor Game
 
 <h2>🍰 Contribution Guidelines:</h2>
 
