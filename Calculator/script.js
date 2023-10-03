@@ -2,35 +2,26 @@ let input = document.getElementById('inputBox');
 let buttons = document.querySelectorAll('button');
 
 let string = "";
-let arr = Array.from(buttons);
-arr.forEach(button => {
-    button.addEventListener('click', (e) =>{
-        if(e.target.innerHTML == '='){
-            string = eval(string);
-            input.value = string;
+
+buttons.forEach(button => {
+    button.addEventListener('click', (e) => {
+        e.preventDefault();
+        const val = e.target.value;
+        if (val != 'clear' && val != 'reset' && val != '=' && val != '%') {
+            input.value += val;
+        } else if (val == 'clear') {
+            input.value = input.value.substring(0, input.value.length - 1);
+        } else if (val == 'reset') {
+            input.value = '';
+        } else if (val == '=') {
+            input.value = eval(input.value);
+        } else if (val == '%') {
+            if (input.value.substring(0, 1) == '-') {
+                input.value = input.value.substring(1, input.value.length);
+            } else if (input.value.substring(0, 1) != '-') {
+                input.value = `-${input.value}`;
+            }
         }
-        else if(e.target.innerHTML == 'AC'){
-            string = "";
-            input.value = string;
-        }
-        else if(e.target.innerHTML == 'DEL'){
-            string = string.slice(0, -1)
-            input.value = string;
-        }
-        else if(e.target.innerHTML == '÷')
-        {
-            string += '/';
-            input.value = string;
-        }
-        else if(e.target.innerHTML == '×')
-        {
-            string += '*';
-            input.value = string;
-        }
-        else{
-            string += e.target.innerHTML;
-            input.value = string;
-        }
-        
+
     })
 })
