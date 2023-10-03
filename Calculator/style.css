@@ -1,40 +1,41 @@
 * {
-
-
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+    font-family: 'Poppins', sans-serif;}
 body{
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: white;
+    background-color: rgb(201, 251, 251);
 }
 
 .calculator{
+    background-color: white;
     border: 1px solid #f2f4f8;
     padding: 25px;
     border-radius: 16px ;
-    background: transparent;
-    box-shadow: 8px 3px 15px, rgba(248, 249, 250, 0.5);
+    /* background: transparent; */
+    -webkit-box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
 }
 input{
     width: 320px;
-    border: transparent;
+    border: 2px solid black;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
     padding: 24px;
     margin: 10px;
-    background: transparent;
     font-size: 40px;
     text-align: right;
-    cursor: pointer;
-    color:deepskyblue;
+    color:rgb(250, 102, 116);
+    background-color: #f6de88;
 }
 input::placeholder{
-    color: darkcyan;
+    color: rgb(13, 59, 59);
 }
 button{
     border: none;
@@ -45,39 +46,107 @@ button{
     background: transparent;
     color: black;
     font-size: 20px;
-    box-shadow: -2px -5px 15px rgba(37, 63, 61, 0.2);
+    -webkit-box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
     cursor:pointer;
 }
 
 .equal{
     background-color: orange;
+    border: 2px solid black;
+}
+.equal:hover{
+    background-color: rgb(228, 8, 8);
+    color: rgb(0, 5, 9);
 }
 .sum{
-    color: skyblue;
+    color: rgb(126, 248, 177);
+    background-color: white;
+    border: 2px solid black;
+}
+.sum:hover{
+    background-color: black;
+    color: rgb(8, 136, 248);
 }
 .minus{
-    color: skyblue;
+    color: rgb(126, 248, 177);
+    background-color: white;
+    border: 2px solid black;
+}
+.minus:hover{
+    background-color: black;
+    color: rgb(8, 136, 248);
 }
 .divide{
-    color: skyblue;
+    color: rgb(126, 248, 177);
+    background-color: white;
+    border: 2px solid black;
+}
+.divide:hover{
+    background-color: black;
+    color: rgb(8, 136, 248);
 }
 .multiply{
-    color: skyblue;
+    color: rgb(126, 248, 177);
+    background-color: white;
+    border: 2px solid black;
+}
+.multiply:hover{
+    background-color: black;
+    color: rgb(8, 136, 248);
 }
 .mod{
-    color: skyblue;
+    color: rgb(126, 248, 177);
+    background-color: white;
+    border: 2px solid black;
+}
+.mod:hover{
+    background-color: black;
+    color: rgb(8, 136, 248);
 }
 .AC{
     color: cornflowerblue;
+    background-color: white;
+    border: 2px solid black;
+}
+.AC:hover{
+    background-color: black;
+    color: rgb(8, 136, 248);
 }
 .DEL{
     color: cornflowerblue;
+    background-color: white;
+    border: 2px solid black;
+}
+.DEL:hover{
+    background-color: black;
+    color: rgb(8, 136, 248);
 }
 .zeroo{
     border-radius: 10%;
     width: 43%;
     color: royalblue;
+    background-color: white;
+    border: 2px solid black;
+}
+.zeroo:hover{
+    background-color: black;
+    color: rgb(8, 136, 248);
 }
 .dot{
     color: steelblue;
+    background-color: white;
+    border: 2px solid black;
+}
+.dot:hover{
+    background-color: black;
+    color: rgb(8, 136, 248);
+}
+.but{
+    background-color: white;
+    border: 2px solid black;
+}
+.but:hover{
+    background-color: black;
+    color: aliceblue;
 }
