@@ -16,6 +16,7 @@
 - Stopwatch
 - Simon Game
 - Javascript Projects Main Website
+- Quotes Generator
 
 <h2>🍰 Contribution Guidelines:</h2>
 
