@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
+
+*{
+  font-family: 'Oswald', sans-serif;
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+
+p{
+  color: #767676;
+  line-height:23px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.btnBanner {
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 11px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    background-color: #daa37f;
+    border-radius: 0;
+    text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn--opacity {
+    animation: opacity 3s;
+}
+
+.sect {
+    padding: 130px 0;
+}
+.sect--brown{
+  background-color: #1d140b;
+}
+
+.sect--grey{
+  background-color: #ebebeb;
+}
+
+.sect--no-bottom{
+  padding-bottom: 0;
+}
+
+.sect--white-text{
+  color: #fff;
+}
+.col--inbl{
+  display: inline-block;
+   float: none;
+}
+.row--center{
+  text-align: center;
+
+}
+.row--small {
+  max-width: 960px;
+  margin:0 auto;
+}
+
+.row--margin{
+  margin-top: 65px;
+}
+
+@-webkit-keyframes banner-in {
+  0% {  
+    background-color:rgba(0,0,0,1);
+  }
+  100% { 
+     background-color:rgba(0,0,0,0.5);
+  }
+}
+@-moz-keyframes banner-in {
+  0% {  
+    background-color:rgba(0,0,0,1);
+  }
+  100% { 
+     background-color:rgba(0,0,0,0.5);
+  }
+}
+@-o-keyframes banner-in {
+  0% {  
+    background-color:rgba(0,0,0,1);
+  }
+  100% { 
+     background-color:rgba(0,0,0,0.5);
+  }
+}
+@keyframes banner-in {
+  0% {  
+    background-color:rgba(0,0,0,1);
+  }
+  100% { 
+     background-color:rgba(0,0,0,0.5);
+  }
+}
+
+@-webkit-keyframes opacity {
+  0% {  
+    opacity:0;
+  }
+  100% { 
+     opacity:1;
+  }
+}
+@-moz-keyframes opacity {
+  0% {  
+    opacity:0;
+  }
+  100% { 
+     opacity:1;
+  }
+}
+@-o-keyframes opacity {
+  0% {  
+    opacity:0;
+  }
+  100% { 
+     opacity:1;
+  }
+}
+@keyframes opacity {
+  0% {  
+    opacity:0;
+  }
+  100% { 
+     opacity:1;
+  }
+}
+
+.banner{
+  background-image: url('https://wallpapercave.com/wp/wp2465928.jpg');
+  background-color:#000;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: table;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.banner__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: table;
+    height: 100%;
+    text-align:center;
+    background-color: rgba(0,0,0,0.4);
+    animation: banner-in 2s ;
+}
+
+.banner__container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.banner__scroll-down {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    margin-left: -12px;
+    cursor: pointer;
+    animation: opacity 3s;
+}
+
+.banner__title {
+    font-size: 56px;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    animation: opacity 3s;
+}
+
+.banner__text {
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 18px;
+    animation: opacity 3s;
+}
+
+
+
