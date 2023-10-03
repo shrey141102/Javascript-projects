@@ -18,6 +18,7 @@
 - Javascript Projects Main Website
 - Quotes Generator
 - Rock Paper Scissors
+- URL Shortener
 
 <h2>🍰 Contribution Guidelines:</h2>
 
