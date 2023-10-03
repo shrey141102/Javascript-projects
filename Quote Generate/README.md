@@ -1,7 +1,8 @@
 # Quote Generator
-
 The Quote Generator is a web application designed to inspire and motivate users with a collection of carefully curated quotes from various authors. Whether you're seeking wisdom, encouragement, or a moment of reflection, this application provides you with a diverse selection of quotes that can uplift your spirits and fuel your aspirations.
 
+![Capture2](https://github.com/rajan98/Javascript-projects/assets/27089273/c4c197e7-568f-405d-9f55-e23c4bf7ee72)
+![Capture1](https://github.com/rajan98/Javascript-projects/assets/27089273/b8dbc805-6919-45e7-8ae6-d39e0f0758ac)
 
 ## Instruction
 
