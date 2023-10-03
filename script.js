@@ -42,6 +42,24 @@ const projects=[
         image:"https://user-images.githubusercontent.com/91379432/147645646-e60b70b4-86af-498f-b141-ffa5ccd6ce8e.PNG"
     },
     {
+        title: "Quote Generate",
+        discription: "The Quote Generator is a web application designed to inspire and motivate users with a collection of carefully curated quotes from various authors. Whether you're seeking wisdom, encouragement, or a moment of reflection, this application provides you with a diverse selection of quotes that can uplift your spirits and fuel your aspirations.",
+        link: "./Quote Generate/index.html",
+        image: "https://randomgenerate.io/images-large/random-quote-generator.jpg"
+    },
+    {
+        title: "Rock Paper Scissors",
+        discription: "A simple rock paper scissors game made using HTML CSS and Javascript.",
+        link: "./Rock Paper Scissor/index.html",
+        image: "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/001/790/529/datas/original.jpeg"
+    },
+    {
+        title: "Simon Game",
+        discription: "A memory-enhancing game in JavaScript where players repeat progressively longer sequences of colors and sounds",
+        link: "./Simon Game/index.html",
+        image: "https://user-images.githubusercontent.com/46281169/60651872-8a8c2480-9e60-11e9-9e6f-feeb76e6e159.PNG"
+    },
+    {
         title:"Stopwatch",
         discription:"\"Stopwatch\" is a web-based project in wich user can track their time taken to do a activity.",
         link:"./Stopwatch/index.html",
@@ -58,20 +76,7 @@ const projects=[
         discription:"\"To-Do\" is a web-based project that offers users the ability to create, manage, and organize their tasks and to-do lists. \"To-Do\" help users to stay organized and productive.",
         link:"./To-Do/index.html",
         image:"https://play-lh.googleusercontent.com/HUuQc4Zpl6x7fUyX-jFMmcuUbW77REw4UKl5rfhHfP4VY6ctBU1w1I_RZWsXaojFgIo"
-    },
-      {
-        title:"Simon Game",
-        discription:"A memory-enhancing game in JavaScript where players repeat progressively longer sequences of colors and sounds",
-        link:"https://shivanshsin0203.github.io/Learn_DOM_Project3/",
-        image:"https://user-images.githubusercontent.com/46281169/60651872-8a8c2480-9e60-11e9-9e6f-feeb76e6e159.PNG"
-    },
-    {
-        title:"Quotes Generator",
-        discription:"The Quote Generator is a web application designed to inspire and motivate users with a collection of carefully curated quotes from various authors. Whether you're seeking wisdom, encouragement, or a moment of reflection, this application provides you with a diverse selection of quotes that can uplift your spirits and fuel your aspirations.",
-        link:"./Quote Generate/index.html",
-        image:"https://randomgenerate.io/images-large/random-quote-generator.jpg"
-    },
-    
+    }
 ]
 
 const cards=document.getElementsByClassName("cards")
