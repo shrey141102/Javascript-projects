@@ -65,6 +65,12 @@ const projects=[
         link:"https://shivanshsin0203.github.io/Learn_DOM_Project3/",
         image:"https://user-images.githubusercontent.com/46281169/60651872-8a8c2480-9e60-11e9-9e6f-feeb76e6e159.PNG"
     },
+    {
+        title:"Quotes Generator",
+        discription:"The Quote Generator is a web application designed to inspire and motivate users with a collection of carefully curated quotes from various authors. Whether you're seeking wisdom, encouragement, or a moment of reflection, this application provides you with a diverse selection of quotes that can uplift your spirits and fuel your aspirations.",
+        link:"./Quote Generate/index.html",
+        image:"https://randomgenerate.io/images-large/random-quote-generator.jpg"
+    },
     
 ]
 
