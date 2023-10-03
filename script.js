@@ -59,6 +59,12 @@ const projects=[
         link:"./To-Do/index.html",
         image:"https://play-lh.googleusercontent.com/HUuQc4Zpl6x7fUyX-jFMmcuUbW77REw4UKl5rfhHfP4VY6ctBU1w1I_RZWsXaojFgIo"
     },
+      {
+        title:"Simon Game",
+        discription:"A memory-enhancing game in JavaScript where players repeat progressively longer sequences of colors and sounds",
+        link:"https://shivanshsin0203.github.io/Learn_DOM_Project3/",
+        image:"https://user-images.githubusercontent.com/46281169/60651872-8a8c2480-9e60-11e9-9e6f-feeb76e6e159.PNG"
+    },
     
 ]
 
