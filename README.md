@@ -17,6 +17,7 @@
 - Simon Game
 - Javascript Projects Main Website
 - Quotes Generator
+- Rock Paper Scissors
 
 <h2>🍰 Contribution Guidelines:</h2>
 
