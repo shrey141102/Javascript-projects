@@ -83,6 +83,12 @@ const projects = [
         link: "./Analog Clock/index.html",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjIRzrebpgt4uF79ewd_AjUjjJ8vqp9PwW6Q&usqp=CAU"
     },
+    {
+        title: "URL Shortener",
+        discription: "URL Shortener made using HTML, CSS, and JavaScript.",
+        link: "./URL Shortener/index.html",
+        image:"https://www.clickslice.co.uk/wp-content/uploads/2022/07/1_Pdw7h5X6vQQNVopIzHBG6A.jpeg"
+    },
 ]
 
 const cards = document.getElementsByClassName("cards")
