@@ -19,6 +19,7 @@
 - Quotes Generator
 - Rock Paper Scissors
 - URL Shortener
+- Music Plyer 
 
 <h2>🍰 Contribution Guidelines:</h2>
 
