@@ -77,6 +77,12 @@ const projects = [
         link: "./Music Player/index.html",
         image: "https://beebom.com/wp-content/uploads/2016/08/10-Best-iPhone-Music-Player-Apps-You-Should-Try-in-2019.jpg?w=750&quality=75"
     },
+    {
+        title: "Analog Clock",
+        discription: "A simple Analig Clock with dark and light mode.",
+        link: "./Analog Clock/index.html",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjIRzrebpgt4uF79ewd_AjUjjJ8vqp9PwW6Q&usqp=CAU"
+    },
 ]
 
 const cards = document.getElementsByClassName("cards")
