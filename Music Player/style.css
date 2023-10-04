@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 100vh;
+    background-image: url("https://e0.pxfuel.com/wallpapers/651/534/desktop-wallpaper-blue-background-aesthetic-computer-a-realizecolor-vercel-app-pastel-blue-aesthetic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.music{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    animation: floatUp;
+    animation-duration: 5.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.img{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    object-fit: cover;
+    border: 2px solid black;
+    box-shadow: 12px 12px 42px  rgba(0, 0, 0, 0.356);
+}
+.volume{
+    animation: float;
+    animation-duration: 5.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: -130px;
+    border: 2px solid black;
+    top:130px;
+    rotate: -90deg;
+    background-color: #ffffffcd;
+    display: flex;
+    font-size: 20px;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 30px;
+    box-shadow: 12px 12px 42px  rgba(0, 0, 0, 0.356);
+}
+.play{
+    height: 50px;
+    width: 50px;
+    border-radius: 4000px;
+}
+.audio-player {
+    width: 302px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffffe5;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 12px 12px 42px  rgba(0, 0, 0, 0.356);
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #821ad7;
+    transition: 0.5s;
+}
+ @keyframes float {
+    0%{top:130px;}
+    50%{top:155px;}
+    100%{top:130px;}
+    
+ }
+ @keyframes floatUp {
+    0%{top:0px;}
+    50%{top:-20px;}
+    100%{top:0px;}
+    
+ }

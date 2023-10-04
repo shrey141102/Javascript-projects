@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Audio Player</title>
+</head>
+
+<body>
+    <div class="music">
+        <img src="https://i.pinimg.com/originals/6e/5d/03/6e5d0352f2c385fb1f88a56f0953f5dc.png" alt="" height=220
+            width="340" class="img">
+        <div class="audio-player">
+            <audio id="myAudio">
+                <source src="./Music//music.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <div class="controls">
+                <button id="playPause">Play</button>
+            </div>
+        </div>
+        <div class="volume"><span>Volume</span><input id="volume" type="range" min="0" max="1" step="0.1" value="1">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+<!-- <button id="playPause">Play</button> -->
