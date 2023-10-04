@@ -19,7 +19,8 @@
 - Quotes Generator
 - Rock Paper Scissors
 - URL Shortener
-- Music Plyer 
+- Music Plyer
+- Analog Clock
 
 <h2>🍰 Contribution Guidelines:</h2>
 
