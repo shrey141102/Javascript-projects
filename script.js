@@ -77,6 +77,12 @@ const projects = [
         link: "./Music Player/index.html",
         image: "https://beebom.com/wp-content/uploads/2016/08/10-Best-iPhone-Music-Player-Apps-You-Should-Try-in-2019.jpg?w=750&quality=75"
     },
+    {
+        title: "URL Shortener",
+        discription: "URL Shortener made using HTML, CSS, and JavaScript.",
+        link: "./URL Shortener/index.html",
+        image:"https://www.clickslice.co.uk/wp-content/uploads/2022/07/1_Pdw7h5X6vQQNVopIzHBG6A.jpeg"
+    },
 ]
 
 const cards = document.getElementsByClassName("cards")
