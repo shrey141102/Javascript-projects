@@ -20,6 +20,7 @@
 - Rock Paper Scissors
 - URL Shortener
 - Music Plyer 
+- QR Code Generator
 
 <h2>🍰 Contribution Guidelines:</h2>
 
