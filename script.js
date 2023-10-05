@@ -94,10 +94,24 @@ const projects = [
   {
     title: "Music Player",
     discription:
-      "This music player is a web based application designed where you can play-pause music and adjust the volume .",
+      "This music player is a web based applcation designed where you can play-pause music and adjust the volume .",
     link: "./Music Player/index.html",
     image:
       "https://beebom.com/wp-content/uploads/2016/08/10-Best-iPhone-Music-Player-Apps-You-Should-Try-in-2019.jpg?w=750&quality=75",
+  },
+  {
+    title: "Analog Clock",
+    discription: "A simple Analig Clock with dark and light mode.",
+    link: "./Analog Clock/index.html",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjIRzrebpgt4uF79ewd_AjUjjJ8vqp9PwW6Q&usqp=CAU",
+  },
+  {
+    title: "URL Shortener",
+    discription: "URL Shortener made using HTML, CSS, and JavaScript.",
+    link: "./URL Shortener/index.html",
+    image:
+      "https://www.clickslice.co.uk/wp-content/uploads/2022/07/1_Pdw7h5X6vQQNVopIzHBG6A.jpeg",
   },
   {
     title: "QR Code Generator",
