@@ -21,6 +21,7 @@
 - URL Shortener
 - Music Plyer
 - Analog Clock
+- QR Code Generator
 
 <h2>🍰 Contribution Guidelines:</h2>
 
