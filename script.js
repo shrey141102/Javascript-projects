@@ -120,6 +120,12 @@ const projects = [
     image:
       "https://images.unsplash.com/photo-1605098293544-25f4c32344c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3135&q=80",
   },
+  {
+    title: "Tic-Tac-Toe",
+    discription: "Tic-Tac-Toe game using HTML,CSS,JS where you na play with your freind using x and o .",
+    link: ".//index.html",
+    image: "https://www.gamesver.com/wp-content/uploads/2022/02/Hand-drawn-tic-tac-toe-game.png.webp"
+  },
 ];
 
 const cards = document.getElementsByClassName("cards");
