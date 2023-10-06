@@ -22,6 +22,7 @@
 - Music Plyer
 - Analog Clock
 - QR Code Generator
+- Tic Tac Toe
 
 <h2>🍰 Contribution Guidelines:</h2>
 
