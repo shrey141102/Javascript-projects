@@ -122,9 +122,19 @@ const projects = [
   },
   {
     title: "Tic-Tac-Toe",
-    discription: "Tic-Tac-Toe game using HTML,CSS,JS where you na play with your freind using x and o .",
+    discription:
+      "Tic-Tac-Toe game using HTML,CSS,JS where you na play with your freind using x and o .",
     link: "./Tic Tac Toe/index.html",
-    image: "https://www.gamesver.com/wp-content/uploads/2022/02/Hand-drawn-tic-tac-toe-game.png.webp"
+    image:
+      "https://www.gamesver.com/wp-content/uploads/2022/02/Hand-drawn-tic-tac-toe-game.png.webp",
+  },
+  {
+    title: "Wether Application",
+    discription:
+      "Weather Application using HTML,CSS,JS where you can enter a city to find it's weather details like temperature and humidity .",
+    link: "./weatherApplication/index.html",
+    image:
+      "https://img.freepik.com/free-vector/four-icons-about-seasons_1268-65.jpg?w=740&t=st=1696679388~exp=1696679988~hmac=c84eb56233af6e1a13e2aef43274b31b7ebf8077198f0e9ba8f6d344df6ad920",
   },
 ];
 

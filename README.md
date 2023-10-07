@@ -23,6 +23,7 @@
 - Analog Clock
 - QR Code Generator
 - Tic Tac Toe
+- Weather Appliation
 
 <h2>🍰 Contribution Guidelines:</h2>
 
@@ -33,14 +34,13 @@ Check this [file](https://github.com/shrey141102/Javascript-projects/blob/main/C
 Please update this README file by adding your project name.
 
 Also remember to add a README inside your project directory explaining what your project is.
-  
+
 <h2>💻 Built with</h2>
 
-<h4>Built by people around the globe. 🌐🧑‍🤝‍🧑</h4> 
+<h4>Built by people around the globe. 🌐🧑‍🤝‍🧑</h4>
 
 Technologies used in the project:
 
-*   Javascript
-*   HTML
-*   CSS
-
+- Javascript
+- HTML
+- CSS
