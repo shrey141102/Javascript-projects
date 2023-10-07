@@ -123,7 +123,7 @@ const projects = [
   {
     title: "Tic-Tac-Toe",
     discription: "Tic-Tac-Toe game using HTML,CSS,JS where you na play with your freind using x and o .",
-    link: ".//index.html",
+    link: "./Tic Tac Toe/index.html",
     image: "https://www.gamesver.com/wp-content/uploads/2022/02/Hand-drawn-tic-tac-toe-game.png.webp"
   },
 ];
