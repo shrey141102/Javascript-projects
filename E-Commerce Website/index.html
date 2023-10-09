@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="icon" href="./Images/favicon-32x32.png" type="image/icon type">
+    <link rel = "stylesheet" href = "style.css">
+    <title>Scuderia Ferrari</title>
+</head>
+
+<body>
+    <nav>
+        <div class = "navTop" id = "navTop"> 
+            <div class = "navItem1">
+                <img src = "./Images/Logo.png" alt = "Logo of Ferrari" width = "135" height="100" class="Logo">
+            </div>
+            <div class = navItem3>
+                <img src = "./Images/Logo2.png" alt = "Logo of Ferrari" width = "150" height="120" class="Logo">
+            </div>
+        </div>
+        <div class = "navBottom" id = "navBottom">
+            <h3 class = "Item">Spain</h3>
+            <h3 class = "Item">Monaco</h3>
+            <h3 class = "Item">Caps</h3>
+            <h3 class = "Item">Jackets</h3>
+            <h3 class = "Item">Shoes</h3>       
+        </div>
+    </nav>
+    <div class="slider" id = "slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="./Images/Tshirt1.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">Spain</br> Merchandise</h1>
+                <h2 class="sliderPrice">$200</h2>
+                <a href="#product1">
+                    <button class="buyButton">BUY NOW</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./Images/Tshirt2.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">Monaco</br> Merchandise</h1>
+                <h2 class="sliderPrice">$200</h2>
+                <a href="#product2">
+                    <button class="buyButton">BUY NOW</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./Images/Cap1.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle1">Caps</h1>
+                <h2 class="sliderPrice1">$90</h2>
+                <a href="#product3">
+                    <button class="buyButton1">BUY NOW</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./Images/Jacket.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle2">Race Jacket</h1>
+                <h2 class="sliderPrice2">$300</h2>
+                <a href="#product4">
+                    <button class="buyButton2">BUY NOW</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./Images/Shoes.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle3">Race Shoes</h1>
+                <h2 class="sliderPrice3">$150</h2>
+                <a href="#product5">
+                    <button class="buyButton3">BUY NOW</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="product1" id="product1">
+        <img src="./Images/Tshirt1.png" alt="" class="productImg">
+        <a href="#navTop">
+            <button class="GoBack">HOME</button>
+        </a>
+        <div class="productDetails">
+            <h1 class="productTitle">Spain Tshirt</h1>
+            <br>
+            <h2 class="productPrice">$200</h2>
+            <br>
+            <p class="productDesc">Official Race Tshirt from the Spanish Grand Prix 2023</p>
+            <br>
+            <div class="sizes">
+                <input type = "radio" name = "sizes" value = "S">S
+                <input type = "radio" name = "sizes" value = "M">M
+                <input type = "radio" name = "sizes" value = "L">L
+                <input type = "radio" name = "sizes" value = "XL">XL
+            </div>
+            <br>
+            <input type = "button" class ="button1" name = "productButton" value = "Add To Cart" onclick="sv('payment', 'flex')">
+        </div>
+        <div class="payment" id = "payment">
+            <h1 class="payTitle">Personal Information</h1>
+            <br>
+            <h3>Enter your details here</h3>
+            <br>
+            <label>Name and Surname</label>
+            <input type="text" placeholder="Shaan Sharma" class="payInput">
+            <label>Phone Number</label>
+            <input type="text" placeholder="+91 12345 67890" class="payInput">
+            <label>Address</label>
+            <input type="text" placeholder="43 Parrys Road" class="payInput">
+            <h1 class="payTitle">Card Information</h1>
+            <input type="text" class="payInput1" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyyy" class="payInput sm">
+                <input type="password" placeholder="cvv" class="payInput sm">
+            </div>
+            <div class="cardIcons">
+                <img src="./Images/Visa.png" width="150" alt="" class="cardIcon">
+            </div>
+            <br>
+            <input type = "button" class = "button2" value = "Pay Now" onclick="sv('payment', 'none');sv('otp', 'flex')">
+            <input type = "button" class = "button3" value = "X" onclick="sv('payment', 'none')"> 
+        </div>
+    </div>
+    <div class="features">
+        <div class="feature">
+            <img src="./Images/Shipping.png" alt="" class="featureIcon">
+            <span class="featureTitle">FREE SHIPPING</span>
+            <span class="featureDesc">Free worldwide shipping on all orders.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./Images/Return.png" alt="">
+            <span class="featureTitle">30 DAYS RETURN</span>
+            <span class="featureDesc">No question return and easy refund in 14 days.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./Images/ContactUs.png" alt="">
+            <span class="featureTitle">CONTACT US!</span>
+            <span class="featureDesc">Keep in touch via email and support system.</span>
+        </div>
+    </div> 
+    <div class="product2" id="product2">
+        <img src="./Images/Tshirt2.png" alt="" class="productImg">
+        <a href="#navTop">
+            <button class="GoBack">HOME</button>
+        </a>
+        <div class="productDetails">
+            <h1 class="productTitle">Monaco Tshirt</h1>
+            <br>
+            <h2 class="productPrice">$200</h2>
+            <br>
+            <p class="productDesc">Official Race Tshirt from the Monaco Grand Prix 2023</p>
+            <br>
+            <div class="sizes">
+                <input type = "radio" name = "sizes" value = "S">S
+                <input type = "radio" name = "sizes" value = "M">M
+                <input type = "radio" name = "sizes" value = "L">L
+                <input type = "radio" name = "sizes" value = "XL">XL
+            </div>
+            <br>
+            <input type = "button" class ="button1" name = "productButton" value = "Add To Cart" onclick="sv('payment', 'flex')">
+        </div>
+        <div class="payment" id = "payment">
+            <h1 class="payTitle">Personal Information</h1>
+            <br>
+            <h3>Enter your details here</h3>
+            <br>
+            <label>Name and Surname</label>
+            <input type="text" placeholder="Shaan Sharma" class="payInput">
+            <label>Phone Number</label>
+            <input type="text" placeholder="+91 12345 67890" class="payInput">
+            <label>Address</label>
+            <input type="text" placeholder="43 Parrys Road" class="payInput">
+            <h1 class="payTitle">Card Information</h1>
+            <input type="text" class="payInput1" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyyy" class="payInput sm">
+                <input type="password" placeholder="cvv" class="payInput sm">
+            </div>
+            <div class="cardIcons">
+                <img src="./Images/Visa.png" width="150" alt="" class="cardIcon">
+            </div>
+            <input type = "button" class = "button2" value = "Pay Now" onclick="sv('payment', 'none');sv('otp', 'flex')">
+            <input type = "button" class = "button3" value = "X" onclick="sv('payment', 'none')"> 
+        </div>
+    </div>
+    <div class="features">
+        <div class="feature">
+            <img src="./Images/Shipping.png" alt="" class="featureIcon">
+            <span class="featureTitle">FREE SHIPPING</span>
+            <span class="featureDesc">Free worldwide shipping on all orders.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./Images/Return.png" alt="">
+            <span class="featureTitle">30 DAYS RETURN</span>
+            <span class="featureDesc">No question return and easy refund in 14 days.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./Images/ContactUs.png" alt="">
+            <span class="featureTitle">CONTACT US!</span>
+            <span class="featureDesc">Keep in touch via email and support system.</span>
+        </div>
+    </div> 
+    <div class="product3" id="product3">
+        <img src="./Images/Cap1.png" alt="" id="productImg">
+        <a href="#navTop">
+            <button class="GoBack3">HOME</button>
+        </a>
+        <div class="productDetails">
+            <h1 class="productTitle">Race Caps</h1>
+            <br>
+            <h2 class="productPrice">$90</h2>
+            <br>
+            <p class="productDesc">Official Race Caps from the Spanish & Monaco Grand Prix 2023</p>
+            <br>
+            <div class="colors">
+                <button class="color1" onclick="myFunction()"></button>
+                <button class="color2" onclick="myFunction1()"></button>
+            </div>
+            <input type = "button" class ="button1" name = "productButton" value = "Add To Cart" onclick="sv('payment', 'flex')">
+        </div>
+        <div class="payment" id = "payment">
+            <h1 class="payTitle">Personal Information</h1>
+            <br>
+            <h3>Enter your details here</h3>
+            <br>
+            <label>Name and Surname</label>
+            <input type="text" placeholder="Shaan Sharma" class="payInput">
+            <label>Phone Number</label>
+            <input type="text" placeholder="+91 12345 67890" class="payInput">
+            <label>Address</label>
+            <input type="text" placeholder="43 Parrys Road" class="payInput">
+            <h1 class="payTitle">Card Information</h1>
+            <input type="text" class="payInput1" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyyy" class="payInput sm">
+                <input type="password" placeholder="cvv" class="payInput sm">
+            </div>
+            <div class="cardIcons">
+                <img src="./Images/Visa.png" width="150" alt="" class="cardIcon">
+            </div>
+            <input type = "button" class = "button2" value = "Pay Now" onclick="sv('payment', 'none');sv('otp', 'flex')">
+            <input type = "button" class = "button3" value = "X" onclick="sv('payment', 'none')"> 
+        </div>
+    </div>
+    <div class="features">
+        <div class="feature">
+            <img src="./Images/Shipping.png" alt="" class="featureIcon">
+            <span class="featureTitle">FREE SHIPPING</span>
+            <span class="featureDesc">Free shipping on all orders.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./Images/Return.png" alt="">
+            <span class="featureTitle">30 DAYS RETURN</span>
+            <span class="featureDesc">Hassle free returns on all orders.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./Images/ContactUs.png" alt="">
+            <span class="featureTitle">CONTACT US!</span>
+            <span class="featureDesc">Keep in touch with us 24/7.</span>
+        </div>
+    </div> 
+    <div class="product4" id="product4">
+        <img src="./Images/Jacket.png" alt="" id="productImg">
+        <a href="#navTop">
+            <button class="GoBack1">HOME</button>
+        </a>
+        <div class="productDetails">
+            <h1 class="productTitle">Race Jackets</h1>
+            <br>
+            <h2 class="productPrice">$300</h2>
+            <br>
+            <p class="productDesc">Official Race Jackets of 2023</p>
+            <br>
+            <div class="sizes">
+                <input type = "radio" name = "sizes" value = "S">S
+                <input type = "radio" name = "sizes" value = "M">M
+                <input type = "radio" name = "sizes" value = "L">L
+                <input type = "radio" name = "sizes" value = "XL">XL
+            </div>
+            <br>
+            <input type = "button" class ="button1" name = "productButton" value = "Add To Cart" onclick="sv('payment', 'flex')">
+        </div>
+        <div class="payment" id = "payment">
+            <h1 class="payTitle">Personal Information</h1>
+            <br>
+            <h3>Enter your details here</h3>
+            <br>
+            <label>Name and Surname</label>
+            <input type="text" placeholder="Shaan Sharma" class="payInput">
+            <label>Phone Number</label>
+            <input type="text" placeholder="+91 12345 67890" class="payInput">
+            <label>Address</label>
+            <input type="text" placeholder="43 Parrys Road" class="payInput">
+            <h1 class="payTitle">Card Information</h1>
+            <input type="text" class="payInput1" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyyy" class="payInput sm">
+                <input type="password" placeholder="cvv" class="payInput sm">
+            </div>
+            <div class="cardIcons">
+                <img src="./Images/Visa.png" width="150" alt="" class="cardIcon">
+            </div>
+            <input type = "button" class = "button2" value = "Pay Now" onclick="sv('payment', 'none');sv('otp', 'flex')">
+            <input type = "button" class = "button3" value = "X" onclick="sv('payment', 'none')"> 
+        </div>
+    </div>
+    <div class="features">
+        <div class="feature">
+            <img src="./Images/Shipping.png" alt="" class="featureIcon">
+            <span class="featureTitle">FREE SHIPPING</span>
+            <span class="featureDesc">Free shipping on all orders.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./Images/Return.png" alt="">
+            <span class="featureTitle">30 DAYS RETURN</span>
+            <span class="featureDesc">Hassle free returns on all orders.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./Images/ContactUs.png" alt="">
+            <span class="featureTitle">CONTACT US!</span>
+            <span class="featureDesc">Keep in touch with us 24/7.</span>
+        </div>
+    </div> 
+    <div class="product5" id="product5">
+        <img src="./Images/Shoes.png" alt="" id="productImg">
+        <a href="#navTop">
+            <button class="GoBack1">HOME</button>
+        </a>
+        <div class="productDetails">
+            <h1 class="productTitle">Race Shoes</h1>
+            <br>
+            <h2 class="productPrice">$150</h2>
+            <br>
+            <p class="productDesc">Official Race Shoes of 2023</p>
+            <br>
+            <div class="sizes">
+                <input type = "radio" name = "sizes" value = "UK 9">UK 9
+                <input type = "radio" name = "sizes" value = "UK 10">UK 10
+                <input type = "radio" name = "sizes" value = "UK 11">UK 11
+                <input type = "radio" name = "sizes" value = "UK 12">UK 12
+            </div>
+            <br>
+            <input type = "button" class ="button1" name = "productButton" value = "Add To Cart" onclick="sv('payment', 'flex')">
+        </div>
+        <div class="payment" id = "payment">
+            <h1 class="payTitle">Personal Information</h1>
+            <br>
+            <h3>Enter your details here</h3>
+            <br>
+            <label>Name and Surname</label>
+            <input type="text" placeholder="Shaan Sharma" class="payInput">
+            <label>Phone Number</label>
+            <input type="text" placeholder="+91 12345 67890" class="payInput">
+            <label>Address</label>
+            <input type="text" placeholder="43 Parrys Road" class="payInput">
+            <h1 class="payTitle">Card Information</h1>
+            <input type="text" class="payInput1" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyyy" class="payInput sm">
+                <input type="password" placeholder="cvv" class="payInput sm">
+            </div>
+            <div class="cardIcons">
+                <img src="./Images/Visa.png" width="150" alt="" class="cardIcon">
+            </div>
+            <input type = "button" class = "button2" value = "Pay Now" onclick="sv('payment', 'none');sv('otp', 'flex')">
+            <input type = "button" class = "button3" value = "X" onclick="sv('payment', 'none')"> 
+        </div>
+    </div>
+    <div class="features">
+        <div class="feature">
+            <img src="./Images/Shipping.png" alt="" class="featureIcon">
+            <span class="featureTitle">FREE SHIPPING</span>
+            <span class="featureDesc">Free shipping on all orders.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./Images/Return.png" alt="">
+            <span class="featureTitle">30 DAYS RETURN</span>
+            <span class="featureDesc">Hassle free returns on all orders.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./Images/ContactUs.png" alt="">
+            <span class="featureTitle">CONTACT US!</span>
+            <span class="featureDesc">Keep in touch with us 24/7.</span>
+        </div>
+    </div>
+    <div class = "otp" id = "otp">
+        <h3 class = "otpTitle">Please Enter OTP</h3>
+        <br>
+        <h5 class = "otpSample">Enter 123456 now</h5>
+        <br>
+        <input type="password" placeholder="Enter here">
+        <br>
+        <input type = "button" class = "button4" value = Confirm! onclick="sv('otp','none');sv('done','flex')">
+    </div>
+    <div class = "done" id = "done">
+        <h4 class = "msg" id = "msg">Payment Confirmed!</h4>
+        <h4 class = "msg" id = "msg">Order Placed Successfully!</h4>
+        <br>
+        <input type = "button" class = "button5" value = Ok! onclick="sv('done','none')">
+    </div>
+    <script src = "app.js"></script>
+</body>
+</html>

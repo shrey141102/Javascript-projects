@@ -12,17 +12,35 @@
 - BMI
 - Happy Birthday Wisher
 - Micro Code Editor in the Browser
+- E-Commerce Website
+- Stopwatch
+- Simon Game
+- Javascript Projects Main Website
+- Quotes Generator
+- Rock Paper Scissors
+- URL Shortener
+- Music Plyer
+- Analog Clock
+- QR Code Generator
+- Tic Tac Toe
+- Weather Appliation
 
 <h2>🍰 Contribution Guidelines:</h2>
 
 Open for contributions.
 
-  
+Check this [file](https://github.com/shrey141102/Javascript-projects/blob/main/CONTRIBUTING.md) for steps to contribute.
+
+Please update this README file by adding your project name.
+
+Also remember to add a README inside your project directory explaining what your project is.
+
 <h2>💻 Built with</h2>
+
+<h4>Built by people around the globe. 🌐🧑‍🤝‍🧑</h4>
 
 Technologies used in the project:
 
-*   Javascript
-*   HTML
-*   CSS
-
+- Javascript
+- HTML
+- CSS

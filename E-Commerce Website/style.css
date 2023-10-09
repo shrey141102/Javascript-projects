@@ -1,0 +1,451 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    font-family: Comfortaa;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #c4f5ff;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+nav{
+    background-color: #B11246;
+    color: bisque;
+}
+.navItem3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    right: 690px;
+    bottom: 40px;
+    cursor: pointer;
+}
+.Logo{
+    vertical-align: middle;
+    position: relative;
+    left: 46.5%;
+}
+.navBottom{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    margin-inline: 50px;
+    color: aqua;
+    position: relative;
+    bottom: 42px;
+}
+.Item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 3px solid greenyellow;
+    border-radius: 3px;
+    font-weight: 400;
+}
+.slider{
+    position: relative;
+    bottom: 50px;
+}
+.sliderItem{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+.sliderTitle{
+    color: black;
+    text-align: center;
+    font-size: 45px;
+}
+.sliderPrice{
+    color: green;
+    position: relative;
+    top: 70px;
+    right: 180px;
+    text-align: center;
+}
+.sliderTitle1{
+    color: black;
+    text-align: center;
+    font-size: 45px;
+    position: relative;
+    bottom: 20px;
+}
+.sliderPrice1{
+    color: green;
+    position: relative;
+    top: 37px;
+    right: 85px;
+    text-align: center;
+}
+.sliderTitle2{
+    color: black;
+    text-align: center;
+    font-size: 45px;
+    position: relative;
+    bottom: 37px;
+}
+.sliderPrice2{
+    color: green;
+    position: relative;
+    top: 17px;
+    right: 180px;
+    text-align: center;
+}
+.sliderTitle3{
+    color: black;
+    text-align: center;
+    font-size: 45px;
+    position: relative;
+    bottom: 37px;
+    right: -30px;
+}
+.sliderPrice3{
+    color: green;
+    position: relative;
+    top: 17px;
+    right: 135px;
+    text-align: center;
+}
+.buyButton{
+    position: relative;
+    top: 110px;
+    right: 255px;
+    width: 90px;
+    border-radius: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+.buyButton:hover{
+    background-color: #DE3163;
+    color: white;
+}
+.buyButton1{
+    position: relative;
+    top: 80px;
+    right: 150px;
+    width: 90px;
+    border-radius: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+.buyButton1:hover{
+    background-color: #DE3163;
+    color: white;
+}
+.buyButton2{
+    position: relative;
+    top: 60px;
+    right: 250px;
+    width: 90px;
+    border-radius: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+.buyButton2:hover{
+    background-color: #DE3163;
+    color: white;
+}
+.buyButton3{
+    position: relative;
+    top: 60px;
+    right: 207px;
+    width: 90px;
+    border-radius: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+.buyButton3:hover{
+    background-color: #DE3163;
+    color: white;
+}
+.sliderWrapper{
+    display: flex;
+    width: 500vw;
+    transition: all 1.5s ease-in-out;
+}
+.Size{
+    display: flex;
+    background-color: burlywood;
+    border-radius: 10px;
+}
+.slider{
+    overflow: hidden;
+}
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: white;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.featureIcon{
+    width: 15%;
+}
+.featureTitle{
+    font-size: medium;
+    font-weight: 600;
+    margin: 15px;
+    color: black;
+}
+.featureDesc{
+    color: rgb(74, 73, 73);
+    font-weight: 500;
+}
+.product1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(189, 245, 121);
+    height: 550px;
+}
+.GoBack{
+    width: 65px;
+    height: 30px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 200px;
+    right: 700px;
+    cursor: pointer;
+}
+.GoBack:hover{
+    background-color: #35b0e9;
+    color: white;
+}
+.product2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(189, 245, 121);
+    height: 550px;
+}
+.product3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(189, 245, 121);
+    height: 550px;
+}
+.colors{
+    display: flex;
+    flex-direction: row;
+}
+.color1{
+    margin-bottom: 20px;
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: red;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.color2{
+    margin-bottom: 20px;
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: white;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.GoBack3{
+    width: 65px;
+    height: 30px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 200px;
+    right: 650px;
+    cursor: pointer;
+}
+.GoBack3:hover{
+    background-color: #35b0e9;
+    color: white;
+}
+.GoBack1{
+    width: 65px;
+    height: 30px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 200px;
+    right: 750px;
+    cursor: pointer;
+}
+.GoBack1:hover{
+    background-color: #35b0e9;
+    color: white;
+}
+.GoBack2{
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 90px;
+    right: 650px;
+    cursor: pointer;
+}
+.GoBack2:hover{
+    background-color: #35b0e9;
+    color: white;
+}
+.product4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(189, 245, 121);
+    height: 550px;
+}
+.product5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(189, 245, 121);
+    height: 550px;
+}
+.payment{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 10px 50px;
+    -webkit-box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+}
+.payInput {
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 1px solid gray;
+  }
+  .payInput1 {
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 350px;
+  }
+  .payInput::placeholder {
+    color: rgb(163, 163, 163);
+  }
+  .payInput1::placeholder {
+    color: rgb(163, 163, 163);
+  }
+.otp{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width:250px;
+    height: 250px;
+    margin: auto;
+}
+.done{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(249, 151, 108);
+    border-radius: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width:250px;
+    height: 150px;
+    margin: auto;
+}
+.ok{
+    cursor: pointer;
+}
+.ok:hover{
+    background-color: #DE3163;
+}
+input[type=button].button1 {
+    background-color: orange;
+    height:30px;
+    width: 100px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+ }
+ input[type=button].button1:hover{
+    background-color: rgb(252, 130, 158);
+ }
+ input[type=button].button2 {
+    background-color: rgb(248, 103, 59);
+    height:30px;
+    width: 80px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+ }
+ input[type=button].button2:hover{
+    background-color: rgb(90, 5, 248);
+ }
+ input[type=button].button3 {
+    background-color: rgb(0, 0, 0);
+    height:25px;
+    width: 25px;
+    position: relative;
+    bottom: 579px;
+    left: 334px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+ }
+ input[type=button].button3:hover{
+    background-color: rgb(249, 47, 47);
+ }
+ input[type=button].button4 {
+    background-color: rgb(116, 179, 222);
+    height:30px;
+    width: 80px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+ }
+ input[type=button].button4:hover{
+    background-color: rgb(116, 91, 246);
+ }
+ input[type=button].button5 {
+    background-color: rgb(3, 151, 250);
+    height:30px;
+    width: 80px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+ }
+ input[type=button].button5:hover{
+    background-color: rgb(160, 231, 20);
+ }
