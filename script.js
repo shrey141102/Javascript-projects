@@ -136,6 +136,14 @@ const projects = [
     image:
       "https://img.freepik.com/free-vector/four-icons-about-seasons_1268-65.jpg?w=740&t=st=1696679388~exp=1696679988~hmac=c84eb56233af6e1a13e2aef43274b31b7ebf8077198f0e9ba8f6d344df6ad920",
   },
+  {
+    title: "Dynamic JS Quiz",
+    discription:
+      "Dynamic JS Quiz using HTML,CSS,JS where you cam find Multiple-choice questions with options ,Immediate feedback on each question, Display of final score at the end of the quiz. ",
+    link: "./Dynamic JS Quiz/index.html",
+    image:
+      "https://img.freepik.com/free-vector/four-icons-about-seasons_1268-65.jpg?w=740&t=st=1696679388~exp=1696679988~hmac=c84eb56233af6e1a13e2aef43274b31b7ebf8077198f0e9ba8f6d344df6ad920",
+  },
 ];
 
 const cards = document.getElementsByClassName("cards");
