@@ -24,6 +24,7 @@
 - QR Code Generator
 - Tic Tac Toe
 - Weather Appliation
+- Dynamic JS Quiz
 
 <h2>🍰 Contribution Guidelines:</h2>
 
