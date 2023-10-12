@@ -1,5 +1,5 @@
 {
-  "name": "3d_animation",
+  "name": "threejs-journey-exercise",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,6 +11,7 @@
     "vite": "^4.0.4"
   },
   "dependencies": {
+    "lil-gui": "^0.17.0",
     "three": "^0.148.0"
   }
 }

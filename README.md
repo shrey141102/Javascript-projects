@@ -25,6 +25,7 @@
 - Tic Tac Toe
 - Weather Appliation
 - Dynamic JS Quiz
+- Galaxy Generator
 
 <h2>🍰 Contribution Guidelines:</h2>
 

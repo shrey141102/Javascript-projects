@@ -144,6 +144,14 @@ const projects = [
     image:
       "https://img.freepik.com/free-vector/four-icons-about-seasons_1268-65.jpg?w=740&t=st=1696679388~exp=1696679988~hmac=c84eb56233af6e1a13e2aef43274b31b7ebf8077198f0e9ba8f6d344df6ad920",
   },
+  {
+    title: "Galaxy Generator",
+    discription:
+      "A simple website to generate different types of spiral galaxy using three js ",
+    link: "./3dWeb/dist/index.html",
+    image:
+      "https://img.freepik.com/free-photo/realistic-spiral-galaxy-with-stars-generative-ai_169016-29325.jpg",
+  },
 ];
 
 const cards = document.getElementsByClassName("cards");

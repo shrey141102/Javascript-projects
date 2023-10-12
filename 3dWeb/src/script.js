@@ -1,83 +1,104 @@
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
-import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
+import * as dat from "lil-gui";
+
+/**
+ * Base
+ */
+// Debug
+const gui = new dat.GUI({ width: 400 });
 
 // Canvas
 const canvas = document.querySelector("canvas.webgl");
-const animationButton1 = document.getElementById("animationButton1");
-const animationButton2 = document.getElementById("animationButton2");
-const animationButton3 = document.getElementById("animationButton3");
-
-// Add click event listeners to the buttons
-animationButton1.addEventListener("click", () => changeAnimation(0));
-animationButton2.addEventListener("click", () => changeAnimation(1));
-animationButton3.addEventListener("click", () => changeAnimation(2));
-document.addEventListener("keydown", (event) => {
-  // console.log(event.key);
-  if (event.key == "1") {
-    changeAnimation(0);
-  } else if (event.key == "2") {
-    changeAnimation(1);
-  } else if (event.key == "3") {
-    changeAnimation(2);
-  }
-});
-
-let animation = null;
-function changeAnimation(animationIndex) {
-  if (mixer) {
-    mixer.stopAllAction();
-  }
-  const newAction = mixer.clipAction(animation[animationIndex]);
-  newAction.play();
-}
 
 // Scene
 const scene = new THREE.Scene();
 
-/* Models */
-
-const gltfLoader = new GLTFLoader();
-
-let mixer = null;
-gltfLoader.load("/models/Fox.gltf", (gltf) => {
-  mixer = new THREE.AnimationMixer(gltf.scene);
-  animation = gltf.animations;
-  const action = mixer.clipAction(animation[1]);
-  action.play();
-  gltf.scene.scale.set(0.025, 0.025, 0.025);
-  scene.add(gltf.scene);
-});
-
 /**
- * Floor
+ * Galaxy
  */
-const floor = new THREE.Mesh(
-  new THREE.BoxGeometry(6, 6, 0.1),
-  new THREE.MeshNormalMaterial()
-);
-floor.position.y = -0.1;
-floor.receiveShadow = true;
-floor.rotation.x = -Math.PI * 0.5;
-scene.add(floor);
+const parameters = {
+  count: 100000,
+  size: 0.01,
+  radius: 5,
+  branchs: 5,
+  spin: 1,
+  randomness: 0.2,
+  ramdomnessPower: 3,
+  insideColor: "#ff2e2e",
+  outsideColor: "#3ad9d7",
+};
+let geometry = null;
+let material = null;
+let points = null;
 
-/**
- * Lights
- */
-const ambientLight = new THREE.AmbientLight(0xffffff, 0.8);
-scene.add(ambientLight);
+const generateGalaxy = () => {
+  //   console.log("generate the galaxy");
+  if (points != null) {
+    geometry.dispose();
+    material.dispose();
+    scene.remove(points);
+  }
+  geometry = new THREE.BufferGeometry();
+  const positions = new Float32Array(parameters.count * 3);
+  const colors = new Float32Array(parameters.count * 3);
+  const colorInside = new THREE.Color(parameters.insideColor);
+  const colorOutside = new THREE.Color(parameters.outsideColor);
+  for (let i = 0; i < parameters.count; i++) {
+    const i3 = i * 3;
+    const radius = Math.random() * parameters.radius;
+    const spinAngle = radius * parameters.spin;
+    const branchAngle =
+      ((i % parameters.branchs) / parameters.branchs) * Math.PI * 2;
 
-const directionalLight = new THREE.DirectionalLight(0xffffff, 0.6);
-directionalLight.castShadow = true;
-directionalLight.shadow.mapSize.set(1024, 1024);
-directionalLight.shadow.camera.far = 15;
-directionalLight.shadow.camera.left = -7;
-directionalLight.shadow.camera.top = 7;
-directionalLight.shadow.camera.right = 7;
-directionalLight.shadow.camera.bottom = -7;
-directionalLight.position.set(5, 5, 5);
-scene.add(directionalLight);
+    const randomX =
+      Math.pow(Math.random(), parameters.ramdomnessPower) *
+      (Math.random() < 0.5 ? 1 : -1);
+    const randomY =
+      Math.pow(Math.random(), parameters.ramdomnessPower) *
+      (Math.random() < 0.5 ? 1 : -1);
+    const randomZ =
+      Math.pow(Math.random(), parameters.ramdomnessPower) *
+      (Math.random() < 0.5 ? 1 : -1);
 
+    positions[i3 + 0] = Math.cos(branchAngle + spinAngle) * radius + randomX;
+    positions[i3 + 1] = randomY;
+    positions[i3 + 2] = Math.sin(branchAngle + spinAngle) * radius + randomZ;
+
+    //color
+    const mixedColor = colorInside.clone();
+    mixedColor.lerp(colorOutside, radius / parameters.radius);
+
+    colors[i3 + 0] = mixedColor.r;
+    colors[i3 + 1] = mixedColor.g;
+    colors[i3 + 2] = mixedColor.b;
+  }
+  geometry.setAttribute("position", new THREE.BufferAttribute(positions, 3));
+  geometry.setAttribute("color", new THREE.BufferAttribute(colors, 3));
+  material = new THREE.PointsMaterial({
+    size: parameters.size,
+    sizeAttenuation: true,
+    depthWrite: false,
+    blending: THREE.AdditiveBlending,
+    vertexColors: true,
+  });
+
+  points = new THREE.Points(geometry, material);
+  scene.add(points);
+};
+generateGalaxy();
+gui.add(parameters, "count", 100, 1000000, 100).onFinishChange(generateGalaxy);
+gui.add(parameters, "size", 0.001, 0.1, 0.001).onFinishChange(generateGalaxy);
+gui.add(parameters, "radius", 0.01, 20, 0.01).onFinishChange(generateGalaxy);
+gui.add(parameters, "branchs", 2, 24, 1).onFinishChange(generateGalaxy);
+gui.add(parameters, "spin", -5, 5, 0.001).onFinishChange(generateGalaxy);
+gui.add(parameters, "randomness", 0, 2, 0.001).onFinishChange(generateGalaxy);
+gui
+  .add(parameters, "ramdomnessPower", 1, 10, 0.001)
+  .onFinishChange(generateGalaxy);
+
+gui.addColor(parameters, "insideColor").onFinishChange(generateGalaxy);
+gui.addColor(parameters, "outsideColor").onFinishChange(generateGalaxy);
 /**
  * Sizes
  */
@@ -110,12 +131,13 @@ const camera = new THREE.PerspectiveCamera(
   0.1,
   100
 );
-camera.position.set(2, 2, 2);
+camera.position.x = 3;
+camera.position.y = 3;
+camera.position.z = 3;
 scene.add(camera);
 
 // Controls
 const controls = new OrbitControls(camera, canvas);
-controls.target.set(0, 0.75, 0);
 controls.enableDamping = true;
 
 /**
@@ -123,10 +145,8 @@ controls.enableDamping = true;
  */
 const renderer = new THREE.WebGLRenderer({
   canvas: canvas,
-  alpha: true,
+  // alpha: true,
 });
-renderer.shadowMap.enabled = true;
-renderer.shadowMap.type = THREE.PCFSoftShadowMap;
 renderer.setSize(sizes.width, sizes.height);
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 
@@ -134,17 +154,9 @@ renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
  * Animate
  */
 const clock = new THREE.Clock();
-let previousTime = 0;
 
 const tick = () => {
   const elapsedTime = clock.getElapsedTime();
-  const deltaTime = elapsedTime - previousTime;
-  previousTime = elapsedTime;
-
-  //update mixer
-  if (mixer != null) {
-    mixer.update(deltaTime);
-  }
 
   // Update controls
   controls.update();
