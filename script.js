@@ -152,6 +152,14 @@ const projects = [
     image:
       "https://img.freepik.com/free-photo/realistic-spiral-galaxy-with-stars-generative-ai_169016-29325.jpg",
   },
+  {
+    title: "Javascript Hangman Game",
+    discription:
+      "A simple website to play the Hangman game using HTML, CSS, and JavaScript.",
+    link: "./3dWeb/dist/index.html",
+    image:
+      "https://img.freepik.com/free-photo/realistic-spiral-galaxy-with-stars-generative-ai_169016-29325.jpg",
+  },
 ];
 
 const cards = document.getElementsByClassName("cards");
