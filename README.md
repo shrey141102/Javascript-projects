@@ -26,6 +26,7 @@
 - Weather Appliation
 - Dynamic JS Quiz
 - Galaxy Generator
+- Hangman Game
 
 <h2>🍰 Contribution Guidelines:</h2>
 
