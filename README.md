@@ -27,7 +27,7 @@
 - Dynamic JS Quiz
 - Galaxy Generator
 - Hangman Game
-
+- Skycast (weather app)
 <h2>🍰 Contribution Guidelines:</h2>
 
 Open for contributions.
