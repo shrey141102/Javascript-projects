@@ -1,6 +1,6 @@
 # Music Player
 
-A simple Analig Clock with dark and light mode.
+A simple Analog Clock with dark and light mode.
 
 ## Instruction
 

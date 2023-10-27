@@ -160,14 +160,6 @@ const projects = [
     image:
       "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F165812595%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board.jpg%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3DUPBBzjl-AYvWRVBog5HrGPbma3J2GUuQNzreonE7KPw%3D&tbnid=JI6XV0U5WdauNM&vet=12ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ..i&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board-gm165812595-19652106&docid=gsJd8onnjFbbgM&w=612&h=357&q=hangman%20game&hl=en&ved=2ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ",
   },
-  {
-    title: "SKYCAST - weather application",
-    discription:
-      "A simple weather app to know the weather details made using HTML , CSS, JS",
-    link: "https://skycastproject.netlify.app/",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBvYLzJXg6OKR7zgOdXQB4S5tLLxAZevCeg&usqp=CAU"
-  },
 ];
 
 const cards = document.getElementsByClassName("cards");

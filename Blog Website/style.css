@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image: url('Images/blog_bg.jpg') ;
+    background-position:center;
+    background-size: cover;
+    background-repeat:repeat-y;
+    height: 100vh;
+}
+.logo{
+width: 1.2rem;
+height: auto;
+float: left;
+margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.navbar{
+    background-color: black;
+}
+.mine{
+padding: 0.7rem;
+font-size: small;
+color: white;
+}
+.one{
+background-color: #00CA4E;
+width: 1rem;
+height: 1rem;
+border-radius: 50%;
+margin-right: 0.8rem;
+color: #00CA4E;
+overflow: hidden;
+}
+.two{
+background-color: #FFBD44;
+width: 1rem;
+height: 1rem;
+border-radius: 50%;
+margin-right: 0.8rem;
+color: #FFBD44;
+overflow: hidden;
+}
+.three {
+background-color: #FF605C;
+width: 1em;
+height: 1em;
+border-radius: 50%;
+margin-right: 0.8rem;
+color: #FF605C;
+overflow: hidden;
+}
+.tray{
+display: flex;
+float:right;
+margin-top: -1.6rem;
+margin-right: 0.5rem;
+}
+.tray :hover{
+cursor:pointer;
+}
+header:hover{
+    cursor: default;
+}
+.fixed_header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.heading{
+    margin: 4rem 2rem 2rem 2rem;
+    color: #7FCDCD;
+    font-size: 50px;
+    word-wrap: 0;
+    font-family: cursive;
+    text-align: center;
+}
+.container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+margin: 3rem;
+}
+.card{
+display: flex;
+background-color: #171717eb;
+width: 50em;
+height: auto;
+border-radius: 15px;
+justify-content: center;
+align-items: center;
+padding: 2em;
+margin: 2rem;
+
+}
+.card1{
+    flex-direction: row-reverse;
+}
+.card2{
+    flex-direction: row;
+}
+.card3{
+    flex-direction: row-reverse;
+}
+.card4{
+    flex-direction: row;
+    margin-bottom: 4rem;
+}
+.image{
+width:12rem;
+}
+.content{
+    margin: 1em;
+}
+.content h1{
+    color: #ed6b5b;
+    text-align: center;
+    font-size:xx-large;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+.content p{
+    color: white;
+    text-align: center;
+}
+.btn{
+    text-align: center;
+    color: white;
+    background-color: #ed6b5b;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: large;
+    border-color: #ed6b5b;
+}
+.btt{
+    text-align: center;
+    margin-top: 30px;
+}
+.btn:hover{
+    background-color: #171717eb;
+    cursor: pointer;
+    color: #ed6b5b;
+    border-color: #ed6b5b;
+}
+.fixed_footer{
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    bottom: 0;
+    background-color: black;
+}
+.foot_nav{
+    display: flex;
+    justify-content: center;
+}
+.foot_logo{
+width: auto;
+height: 2rem;
+float: left;
+margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+@media screen and (max-width: 680px){
+    .card{
+    flex-direction: column;
+    }
+}
+@media screen and (max-width: 420px){
+    .heading{
+        font-size: 35px
+    }
+}
