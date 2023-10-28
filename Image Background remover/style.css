@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body{
+    background: linear-gradient(to right, #9e5770 15%, #2f3461 100%);
+}
+.no{
+    font-family: 'Lato', sans-serif;
+    text-align:center;
+    font-size:40px;
+    color:rgb(2, 2, 2);
+    font-weight:bolder;
+    padding-top:30px;
+}
+.yes{
+    text-align:left;
+  width:340px;
+  padding-left:5px;
+  margin-left:585px;
+    margin-top:40px;
+    background-color: aliceblue;
+    border-radius:5px;
+    
+}
+.form-group{
+    height:100px;
+    padding-top:10px;
+    padding-bottom:10px;
+
+}
+.btn{
+    margin-bottom:10px;
+    margin-top:10px;
+}
+@media screen and (max-width:720px){
+.yes{
+    margin-left:14px;
+    width:280px;
+}
+.no{
+    font-size:20px;
+}
+
+}
