@@ -30,8 +30,7 @@
 - Skycast (weather app)
 - Background Color Changer
 - BLog Website
-
-  
+- Rock Paper Scissors game
 <h2>🍰 Contribution Guidelines:</h2>
 
 Open for contributions.
