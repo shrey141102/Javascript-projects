@@ -1,0 +1,29 @@
+strong{
+    font-weight: 600;
+    color: #8000a0;
+}
+.footer{
+    background: #111;
+    color: #777;
+    padding: 10px;
+    padding-bottom: 2px;
+    text-align: center;
+}
+
+.detail-form{
+    background: #fff;
+    margin: 0px 20px;
+    padding: 20px 30px;
+    border: 3px solid #fff;
+}
+.form-subhead{
+    font-weight: 400;
+    color: #555;
+}
+.form-row{
+    margin: 20px 10px;
+}
+.form-row button{
+    margin: 20px auto;
+    align-self: center;
+}

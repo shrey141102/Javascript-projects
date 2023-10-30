@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ############## Resume Wrapper ############ -->
+    <div id="resume-wrapper">
+        <div id="resume-head">
+            <div id="title">
+                <h1 id="name">Your Name</h1>
+            </div>
+            <div id="primary-info">
+                <div class="info"><i class="fa fa-map-marker"></i> Address</div>
+                <div class="info"><i class="fa fa-envelope-o"></i> Email</div>
+                <div class="info"><i class="fa fa-phone"></i> Mobile Number</div>
+            </div>
+        </div>
+        <hr class="divider">
+        <div id="resume-body">
+            <div id="objective" class="resume-section">
+                <h2 class="section-title">
+                    Career Objective
+                </h2>
+                <p id="description">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis delectus fugit ratione neque officia itaque laboriosam? Culpa sunt quidem incidunt, esse porro ullam perferendis mollitia cupiditate voluptates obcaecati maiores. Maxime!
+                </p>
+            </div>
+            <div id="education" class="resume-section">
+                <h2 class="section-title">
+                    Educational Qualifications
+                </h2>
+                <div class="edinfo">
+                    <div class="main">
+                        <span id="course" class="dark">Course Name</span> in 
+                        <span class="dark" id="discipline">Discipline</span> from 
+                        <span class="dark" id="univ">University</span>
+                    </div>
+                    <div class="facts">
+                        <li class="data">Grade / Percentage : <span class="dark" id="grade">0.00%</span> </li>
+                        <li class="data">Passing Year : <span class="dark" id="year">2020</span></li>
+                    </div>
+                </div>
+                <div class="edinfo">
+                    <div class="main">
+                        <span id="course2" class="dark">Course Name</span> in 
+                        <span class="dark" id="discipline2">Discipline</span> from 
+                        <span class="dark" id="univ2">University</span>
+                    </div>
+                    <div class="facts">
+                        <li class="data">Grade / Percentage : <span class="dark" id="grade2">0.00%</span> </li>
+                        <li class="data">Passing Year : <span class="dark" id="year2">2020</span></li>
+                    </div>
+                </div>
+            </div>
+            <div id="achievements" class="resume-section">
+                <h2 class="section-title">
+                    Achievements
+                </h2>
+                <ul>
+                    <li>Achievement #1</li>
+                    <li>Achievement #2</li>
+                </ul>
+            </div>
+            <div id="skills" class="resume-section">
+                <h2 class="section-title">
+                    Skills
+                </h2>
+                <ul>
+                    <li class="skill skill1">Skill 1</li>
+                    <li class="skill skill2">Skill 2</li>
+                    <li class="skill skill3">Skill 3</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <button onclick="window.print();">Download Resume <i class="fa fa-download"></i></button>
+</body>
+</html>
