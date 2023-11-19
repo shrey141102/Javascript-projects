@@ -51,3 +51,5 @@ Technologies used in the project:
 - Javascript
 - HTML
 - CSS
+
+please feel free to use any technology while building the project. It can be AI or Blockchain or anything. Just remeber that it should be able to work with and intergrate with the website.
