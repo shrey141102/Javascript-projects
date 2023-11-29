@@ -205,7 +205,7 @@ const projects = [
     title: "Expense Tracker",
     discription:
       "Expense tracker allows users to log their expenses, categorize them, and view spending patterns over time.",
-    link: "./Expense Tracker/index.html",
+    link: "./Expense Tracker/index1.html",
     image:
       "https://img.freepik.com/premium-photo/flat-design-illustration-facebook-social-network-groups_863013-52875.jpg?w=740",
   }
