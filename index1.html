@@ -1,0 +1,62 @@
+<!-- This is the document type declaration specifying HTML5 -->
+<!DOCTYPE html>
+
+<!-- Opening tag for the HTML document with English language -->
+<html lang="en">
+<head>
+    <!-- Meta tags specifying character set and viewport settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link to an external stylesheet for maintaining styles -->
+    <link rel="stylesheet" href="style1.css">
+
+    <!-- Title of the HTML document -->
+    <title>Expense Tracker</title>
+</head>
+<body>
+    <!-- Header section displaying the title of the expense tracker -->
+    <header>
+        Expense Tracker
+    </header>
+
+    <!-- Form section for adding expenses -->
+    <div id="expense-form">
+        <!-- Heading for the add expense section with gold text color -->
+        <h2 style="color: #FFD700;">Add Expense</h2>
+
+        <!-- Input field for entering expense category -->
+        <label for="category">Category:</label>
+        <input type="text" id="category" placeholder="Enter category" required style="padding: 8px; border: 1px solid #FFD700; border-radius: 4px; background-color: #2d3134; color: white;">
+
+        <!-- Input field for entering expense amount -->
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" placeholder="Enter amount" required style="padding: 8px; border: 1px solid #FFD700; border-radius: 4px; background-color: #2d3134; color: white;">
+
+        <!-- Button for triggering the addExpense function -->
+        <button onclick="addExpense()" style="background-color: #FFD700; color: #1f2124; padding: 10px; border: none; border-radius: 4px; cursor: pointer;">Add Expense</button>
+    </div>
+
+    <!-- Section for displaying the list of expenses -->
+    <div id="expenses-list">
+        <!-- Heading for the expenses list section with gold text color -->
+        <h2 style="color: #FFD700;">Expenses</h2>
+
+        <!-- Unordered list for displaying individual expense items -->
+        <ul id="expense-items"></ul>
+    </div>
+
+    <!-- Section for displaying the spending pattern chart -->
+    <div id="chart-container">
+        <!-- Heading for the spending pattern chart with gold text color -->
+        <h2 style="color: #FFD700;">Spending Pattern</h2>
+
+        <!-- Canvas element for rendering the expense chart -->
+        <canvas id="expense-chart"></canvas>
+    </div>
+
+    <!-- External script references for Chart.js and the custom script -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script1.js"></script>
+</body>
+</html>

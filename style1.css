@@ -1,0 +1,55 @@
+/* Overall styling for the entire page */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Set the font family for the page */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #1f2124; /* Dark background color */
+    color: white; /* White text color */
+}
+
+/* Styling for the header section */
+header {
+    background-color: #FFD700; /* Gold header color */
+    color: #1f2124; /* Dark text color */
+    text-align: center; /* Center-align text */
+    padding: 20px; /* Padding around the header */
+    font-size: 24px; /* Font size of the header */
+}
+
+/* Styling for the expense form and expenses list sections */
+#expense-form, #expenses-list {
+    max-width: 600px; /* Maximum width for the form and list */
+    margin: 20px auto; /* Center the form and list */
+    background-color: #2d3134; /* Dark form and list background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow for a subtle lift */
+    padding: 20px; /* Padding inside the form and list */
+}
+
+/* Styling for individual expense items */
+.expense-item {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space evenly between items */
+    background-color: #232627; /* Dark item background color */
+    margin: 10px 0; /* Margin around each item */
+    padding: 15px; /* Padding inside each item */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Box shadow for a subtle lift */
+}
+
+/* Styling for the delete button within expense items */
+.delete-button {
+    cursor: pointer; /* Change cursor to pointer on hover */
+    color: #e74c3c; /* Red delete button color */
+    font-weight: bold; /* Bold font weight for emphasis */
+}
+
+/* Styling for the chart container section */
+#chart-container {
+    max-width: 800px; /* Maximum width for the chart container */
+    margin: 20px auto; /* Center the chart container */
+    background-color: #2d3134; /* Dark chart background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow for a subtle lift */
+    padding: 20px; /* Padding inside the chart container */
+}
