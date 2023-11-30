@@ -7,6 +7,7 @@ const projects = [
     image:
       "https://vitalityweightlossinstitute.com/wp-content/uploads/2023/05/bmi.png",
   },
+
   {
     title: "Calculator",
     discription: "Calculator project made using HTML CSS Javascript",
@@ -200,6 +201,14 @@ const projects = [
     image:
       "https://mir-s3-cdn-cf.behance.net/projects/404/47b23888537607.Y3JvcCw2NTMsNTExLDIxNiwxOTc.jpg",
   },
+  {
+    title: "Expense Tracker",
+    discription:
+      "Expense tracker allows users to log their expenses, categorize them, and view spending patterns over time.",
+    link: "./expense tracker/index.html",
+    image:
+      "https://img.freepik.com/premium-photo/flat-design-illustration-facebook-social-network-groups_863013-52875.jpg?w=740",
+  }
 
 ];
 

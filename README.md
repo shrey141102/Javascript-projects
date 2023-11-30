@@ -30,6 +30,7 @@
 - Skycast (weather app)
 - Background Color Changer
 - BLog Website
+- Expense tracker
 
   
 <h2>🍰 Contribution Guidelines:</h2>
