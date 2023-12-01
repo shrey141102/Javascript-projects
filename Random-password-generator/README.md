@@ -1,0 +1,1 @@
+This is a simple random password generator project made with HTML, CSS and JS which gives us a password of 12 characters comprising of Alphabets, numbers, symbols and special characters.}
