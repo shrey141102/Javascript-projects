@@ -1,51 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="BannerStyle.css">
-  <link rel="stylesheet" href="Footer.css">
-    <link rel="shortcut icon" type="image/x-icon" href="https://www.computerhope.com/jargon/j/javascript.png"/>
-  <meta name="theme-color" content="#daa37f">
-  <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <title>JavaScript Projects</title>
-  </head>
-  
-  <body>
-  <div class="banner">
-    <div class="banner__overlay">
-      <div class="banner__container">
-        <h1 class="banner__title">JavaScript Projects</h1>
-        <p class="banner__text">Find best mini projects using Html CSS JavaScript</p>
-        <a href="#Bottom" class="btnBanner btn--opacity">Projects</a>
-      </div>
-      <img class="banner__scroll-down" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAxMjkgMTI5IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMjkgMTI5IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4Ij4KICA8Zz4KICAgIDxwYXRoIGQ9Im0xMjEuMywzNC42Yy0xLjYtMS42LTQuMi0xLjYtNS44LDBsLTUxLDUxLjEtNTEuMS01MS4xYy0xLjYtMS42LTQuMi0xLjYtNS44LDAtMS42LDEuNi0xLjYsNC4yIDAsNS44bDUzLjksNTMuOWMwLjgsMC44IDEuOCwxLjIgMi45LDEuMiAxLDAgMi4xLTAuNCAyLjktMS4ybDUzLjktNTMuOWMxLjctMS42IDEuNy00LjIgMC4xLTUuOHoiIGZpbGw9IiNGRkZGRkYiLz4KICA8L2c+Cjwvc3ZnPgo=" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random password generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generate a <br><span>R@nd0m_pa$$w0rd</span></h1>
+        <div class="display">
+            <input type="text" class="copy" id="password" placeholder="random password">
+            <img src="images/copy.png" alt="" onclick="copyPassword()">
+        </div>
+        <button onclick="createPassword()"><img src="images/generate1.png" alt="err">Generate Password</button>
     </div>
-  </div>
-  <div class="projects">
-    <a id="Bottom"></a>
-    <h1 class="heading">Projects</h1>
-
-
-
-    <ul class="cards">
-        
-      </ul>
-    <script src="script.js"></script>
-  </div>
-  <div class="footer">
-    <div class="col social">
-      <h1>Creator: </h1>
-      <a target="_blank" class="a" href="https://github.com/shrey141102">Shreyansh Khaitan</a>
-    </div>
-    <div class="col social">
-      <h1>Website by:</h1>
-      <a target="_blank" class="a" href="https://github.com/Infinite-Null">Ankit Kumar Shah</a>
-    </div>
-    <div class="col social">
-      <h1>Repository: </h1>
-      <a target="_blank" class="a" href="https://github.com/shrey141102/Javascript-projects">Github</a>
-    </div>
-    <h1 class="footerTitle">@JavaScript Projects</h1>
-  <div class="clearfix"></div>
-  </div>
-  </div>
-  
-  </body>
+<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script defer src="script.js"></script>
+</body>
+</html>
