@@ -6,6 +6,7 @@
 
 - Calculator
 - Guess my number
+- Dice-Game
 - Drum Kit
 - To-Do
 - Temperature Converter
