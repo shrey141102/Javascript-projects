@@ -11,13 +11,23 @@
 <body>
      <div class="container">
           <h2><u><b>Temperature Converter</b></u></h2>
-          <h3><u>NOTE</u>: Enter only value and then select the options. Don't write the other things only write value in the value selection</h3>
+          <h3><u>NOTE</u>: Enter only value and then select the options. </h3>
           Temperature value: <input type="number" name="temp" id="temp" placeholder="Enter the temperature" required autofocus>
-          <h3>Please write the unit from Celsius, fahrenheit, and kelvin</h3>
-          Unit: <input type="text" name="unit1" id="unit1" placeholder="unit" required>
+          <h3>Please choose the unit from celsius, fahrenheit, and kelvin</h3>
+          <label for="unit1">Unit:</label>
+          <select name="Unit" id="unit1">
+               <option value="celsius">Celsius</option>
+               <option value="fahrenheit">Fahrenheit</option>
+               <option value="kelvin">Kelvin</option>
+          </select>
           <!-- <h3>Select the temperature in which do you want to convert it.</h3> -->
-          <h3>Please write the unit from Celsius, fahrenheit, and kelvin</h3>
-          Unit: <input type="text" name="unit2" id="unit2" placeholder="unit" required>
+          <h3>Please choose the unit from celsius, fahrenheit, and kelvin</h3>
+          <label for="unit2">Unit:</label>
+          <select name="Unit" id="unit2">
+               <option value="celsius">Celsius</option>
+               <option value="fahrenheit">Fahrenheit</option>
+               <option value="kelvin">Kelvin</option>
+          </select>
           <br><br>
           <button type="convert" onclick="convert();">convert</button>
           <br>
