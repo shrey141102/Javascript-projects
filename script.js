@@ -208,6 +208,14 @@ const projects = [
     link: "./expense tracker/index.html",
     image:
       "https://img.freepik.com/premium-photo/flat-design-illustration-facebook-social-network-groups_863013-52875.jpg?w=740",
+  },
+  {
+    title: "Text to speech",
+    discription:
+      "Text to speech converter made using HTML, CSS and JS",
+    link: "./Text-to-speech/index.html",
+    image:
+      "https://miro.medium.com/v2/resize:fit:700/1*yDgVdq8--I5pUyGodlzswg.jpeg#",
   }
 
 ];
