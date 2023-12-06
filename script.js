@@ -216,6 +216,14 @@ const projects = [
     link: "./Text-to-speech/index.html",
     image:
       "https://miro.medium.com/v2/resize:fit:700/1*yDgVdq8--I5pUyGodlzswg.jpeg#",
+  },
+  {
+    title: "Age calculator",
+    discription:
+      "Age calculator made using HTML, CSS and JS",
+    link: "./Age-calculator/age_cal.html",
+    image:
+      "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/562/259/datas/original.png",
   }
 
 ];
