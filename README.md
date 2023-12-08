@@ -31,6 +31,7 @@
 - Background Color Changer
 - BLog Website
 - Expense tracker
+- Word Scramble
 
   
 <h2>🍰 Contribution Guidelines:</h2>
