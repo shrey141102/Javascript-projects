@@ -224,8 +224,14 @@ const projects = [
     link: "./Age-calculator/age_cal.html",
     image:
       "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/562/259/datas/original.png",
+  },
+  {
+    title: "Word Scramble",
+    discription:
+      "Word scramble game made using HTML, CSS and JS",
+    link: "./Word Scramble/index.html",
+    image: "https://dictionary.cambridge.org/external/images/wordscramble-og-image.png"
   }
-
 ];
 
 const cards = document.getElementsByClassName("cards");
