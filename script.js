@@ -102,7 +102,7 @@ const projects = [
   },
   {
     title: "Analog Clock",
-    discription: "A simple Analog Clock with dark and light mode.",
+    discription: "A simple Analog Clock with light and dark mode.",
     link: "./Analog Clock/index.html",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjIRzrebpgt4uF79ewd_AjUjjJ8vqp9PwW6Q&usqp=CAU",
