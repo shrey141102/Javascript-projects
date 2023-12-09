@@ -102,7 +102,7 @@ const projects = [
   },
   {
     title: "Analog Clock",
-    discription: "A simple Analig Clock with dark and light mode.",
+    discription: "A simple Analog Clock with dark and light mode.",
     link: "./Analog Clock/index.html",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjIRzrebpgt4uF79ewd_AjUjjJ8vqp9PwW6Q&usqp=CAU",
@@ -124,13 +124,13 @@ const projects = [
   {
     title: "Tic-Tac-Toe",
     discription:
-      "Tic-Tac-Toe game using HTML,CSS,JS where you na play with your freind using x and o .",
+      "Tic-Tac-Toe game using HTML,CSS,JS where you na play with your frinnd using X and O .",
     link: "./Tic Tac Toe/index.html",
     image:
       "https://www.gamesver.com/wp-content/uploads/2022/02/Hand-drawn-tic-tac-toe-game.png.webp",
   },
   {
-    title: "Wether Application",
+    title: "Weather Application",
     discription:
       "Weather Application using HTML,CSS,JS where you can enter a city to find it's weather details like temperature and humidity .",
     link: "./weatherApplication/index.html",
@@ -159,7 +159,7 @@ const projects = [
       "A simple website to play the Hangman game using HTML, CSS, and JavaScript.",
     link: "./JavaScript Hangman Game project/index.html",
     image:
-      "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F165812595%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board.jpg%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3DUPBBzjl-AYvWRVBog5HrGPbma3J2GUuQNzreonE7KPw%3D&tbnid=JI6XV0U5WdauNM&vet=12ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ..i&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board-gm165812595-19652106&docid=gsJd8onnjFbbgM&w=612&h=357&q=hangman%20game&hl=en&ved=2ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ",
+      " https://media.istockphoto.com/id/165812595/de/vektor/galgenm%C3%A4nnchen-kreide-board.jpg?s=612x612&w=0&k=20&c=UPBBzjl-AYvWRVBog5HrGPbma3J2GUuQNzreonE7KPw=",
   },
   {
     title: "Dynamic Online Resume",
@@ -167,15 +167,15 @@ const projects = [
       "A simple Dynamic Online resume website using HTML, CSS, and JavaScript.",
     link: "./DYNAMIC ONLINE RESUME/index.html",
     image:
-      "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F165812595%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board.jpg%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3DUPBBzjl-AYvWRVBog5HrGPbma3J2GUuQNzreonE7KPw%3D&tbnid=JI6XV0U5WdauNM&vet=12ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ..i&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board-gm165812595-19652106&docid=gsJd8onnjFbbgM&w=612&h=357&q=hangman%20game&hl=en&ved=2ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ",
+      "https://images.unsplash.com/photo-1586281380349-632531db7ed4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
-    title: "Image Backgroud Remover",
+    title: "Image Background Remover",
     discription:
-      "A simple Image Backgroud Remover website using HTML, CSS, and JavaScript.",
+      "A simple Image Background Remover website using HTML, CSS, and JavaScript.",
     link: "./Image Background remover/index.html",
     image:
-      "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F165812595%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board.jpg%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3DUPBBzjl-AYvWRVBog5HrGPbma3J2GUuQNzreonE7KPw%3D&tbnid=JI6XV0U5WdauNM&vet=12ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ..i&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board-gm165812595-19652106&docid=gsJd8onnjFbbgM&w=612&h=357&q=hangman%20game&hl=en&ved=2ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ",
+      "https://images.pexels.com/photos/733853/pexels-photo-733853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   },
   {
     title: "Palindrome Checker",
@@ -183,7 +183,7 @@ const projects = [
       "A simple Palindrome  checker website using HTML, CSS, and JavaScript.",
     link: "./Palindrome Checker/index.html",
     image:
-      "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F165812595%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board.jpg%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3DUPBBzjl-AYvWRVBog5HrGPbma3J2GUuQNzreonE7KPw%3D&tbnid=JI6XV0U5WdauNM&vet=12ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ..i&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board-gm165812595-19652106&docid=gsJd8onnjFbbgM&w=612&h=357&q=hangman%20game&hl=en&ved=2ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ",
+      "https://thumbs.dreamstime.com/b/parking-spot-surrounded-fall-leaves-monochrome-random-space-number-asphalt-dried-133611031.jpg",
   },
   {
     title: "Note taking application",
@@ -191,7 +191,7 @@ const projects = [
       "A simple note taking application website using HTML, CSS, and JavaScript.",
     link: "./Note Taking Application/index.html",
     image:
-      "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F165812595%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board.jpg%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3DUPBBzjl-AYvWRVBog5HrGPbma3J2GUuQNzreonE7KPw%3D&tbnid=JI6XV0U5WdauNM&vet=12ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ..i&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board-gm165812595-19652106&docid=gsJd8onnjFbbgM&w=612&h=357&q=hangman%20game&hl=en&ved=2ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ",
+      "https://images.pexels.com/photos/1629212/pexels-photo-1629212.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   },
   {
     title: "Password Generator",
