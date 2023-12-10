@@ -32,6 +32,7 @@
 - BLog Website
 - Expense tracker
 - Word Scramble
+- Snake Game
 
   
 <h2>🍰 Contribution Guidelines:</h2>
