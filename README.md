@@ -4,33 +4,41 @@
 
 <h2>🤩List of projects:</h2>
 
-- Calculator
-- Guess my number
-- Drum Kit
-- To-Do
-- Temperature Converter
-- BMI
-- Happy Birthday Wisher
-- Micro Code Editor in the Browser
-- E-Commerce Website
-- Stopwatch
-- Simon Game
-- Javascript Projects Main Website
-- Quotes Generator
-- Rock Paper Scissors
-- URL Shortener
-- Music Plyer
+- Age Calculator
 - Analog Clock
-- QR Code Generator
-- Tic Tac Toe
-- Weather Appliation
-- Dynamic JS Quiz
-- Galaxy Generator
-- Hangman Game
-- Skycast (weather app)
 - Background Color Changer
 - BLog Website
+- BMI
+- Calculator
+- Dice Game
+- Drum Kit
+- Dynamic JS Quiz
+- Dynamic Online Resume
+- E-Commerce Website
 - Expense tracker
+- Guess my number
+- Hangman Game
+- Happy Birthday Wisher
+- Image Background Remover
+- Javascript Projects Main Website
+- Micro Code Editor in the Browser
+- Music Player  
+- Note Taking Application
+- Palindrome Checker 
+- Password Generator
+- QR Code Generator
+- Quotes Generator
+- Rock Paper Scissors
+- Simon Game
+- Skycast (weather app)
+- Stopwatch
+- Temperature Converter
+- Text-to-Speech
+- Tic Tac Toe
+- To-Do
+- URL Shortener
+- Weather Appliation
+- Word Scramble
 
   
 <h2>🍰 Contribution Guidelines:</h2>
