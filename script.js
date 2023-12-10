@@ -224,6 +224,14 @@ const projects = [
     link: "./Age-calculator/age_cal.html",
     image:
       "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/562/259/datas/original.png",
+  },
+  {
+    title: "Sudoko Game",
+    discription:
+      "Sudoku is a logic-based number placement puzzle played on a 9x9 grid. The goal is to fill the grid with digits from 1 to 9, ensuring each row, column, and 3x3 subgrid contains all numbers without repetition. Some cells have initial numbers as clues. Players use deductive reasoning to strategically place numbers, solving the puzzle with a unique solution. Difficulty levels vary, making Sudoku a popular and challenging game requiring analytical thinking and patience.",
+    link: "./Sudoku Game/index.html",
+    image:
+      "./Sudoku Game/bozhin-karaivanov-yqcWOAHH1Rs-unsplash.jpg",
   }
 
 ];
