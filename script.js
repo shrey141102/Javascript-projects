@@ -234,7 +234,15 @@ const projects = [
       "Word scramble game made using HTML, CSS and JS",
     link: "./Word Scramble/index.html",
     image: "https://dictionary.cambridge.org/external/images/wordscramble-og-image.png"
+  },
+  {
+    title: "Snake Game",
+    discription:
+      "Its a basics Javascript snake game using DOM Event.",
+    link: "./Snake_Game/index.html",
+    image: "https://w7.pngwing.com/pngs/543/374/png-transparent-snake-2000-classic-nokia-game-slither-worm-snake-a-classic-snake-game-classic-game-snake-ii-snake-food-animals-grass-thumbnail.png"
   }
+  
 ];
 
 const cards = document.getElementsByClassName("cards");
