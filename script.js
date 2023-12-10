@@ -160,14 +160,17 @@ const projects = [
     link: "./JavaScript Hangman Game project/index.html",
     image:
       " https://media.istockphoto.com/id/165812595/de/vektor/galgenm%C3%A4nnchen-kreide-board.jpg?s=612x612&w=0&k=20&c=UPBBzjl-AYvWRVBog5HrGPbma3J2GUuQNzreonE7KPw=",
+
   },
   {
     title: "Dynamic Online Resume",
     discription:
       "A simple Dynamic Online resume website using HTML, CSS, and JavaScript.",
     link: "./DYNAMIC ONLINE RESUME/index.html",
+
     image:
       "https://images.unsplash.com/photo-1586281380349-632531db7ed4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+
   },
   {
     title: "Image Background Remover",
@@ -175,23 +178,23 @@ const projects = [
       "A simple Image Background Remover website using HTML, CSS, and JavaScript.",
     link: "./Image Background remover/index.html",
     image:
-      "https://images.pexels.com/photos/733853/pexels-photo-733853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://www.remove.bg/images/samples/combined/s5.jpg",
   },
   {
     title: "Palindrome Checker",
     discription:
       "A simple Palindrome  checker website using HTML, CSS, and JavaScript.",
     link: "./Palindrome Checker/index.html",
-    image:
-      "https://thumbs.dreamstime.com/b/parking-spot-surrounded-fall-leaves-monochrome-random-space-number-asphalt-dried-133611031.jpg",
+    image: "https://res.cloudinary.com/practicaldev/image/fetch/s--4zVmP4DH--/c_imagga_scale,f_auto,fl_progressive,h_720,q_auto,w_1280/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nxsxf8vwik9bn9c6c6b4.jpg"
+
   },
   {
     title: "Note taking application",
     discription:
       "A simple note taking application website using HTML, CSS, and JavaScript.",
     link: "./Note Taking Application/index.html",
-    image:
-      "https://images.pexels.com/photos/1629212/pexels-photo-1629212.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_M6SzMy82SMHPAcWvpDIZoTiPKYXvhxnswA&usqp=CAU"
+
   },
   {
     title: "Password Generator",
@@ -224,8 +227,14 @@ const projects = [
     link: "./Age-calculator/age_cal.html",
     image:
       "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/562/259/datas/original.png",
+  },
+  {
+    title: "Word Scramble",
+    discription:
+      "Word scramble game made using HTML, CSS and JS",
+    link: "./Word Scramble/index.html",
+    image: "https://dictionary.cambridge.org/external/images/wordscramble-og-image.png"
   }
-
 ];
 
 const cards = document.getElementsByClassName("cards");
