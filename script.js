@@ -102,7 +102,7 @@ const projects = [
   },
   {
     title: "Analog Clock",
-    discription: "A simple Analig Clock with dark and light mode.",
+    discription: "A simple Analog Clock with light and dark mode.",
     link: "./Analog Clock/index.html",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjIRzrebpgt4uF79ewd_AjUjjJ8vqp9PwW6Q&usqp=CAU",
@@ -124,13 +124,13 @@ const projects = [
   {
     title: "Tic-Tac-Toe",
     discription:
-      "Tic-Tac-Toe game using HTML,CSS,JS where you na play with your freind using x and o .",
+      "Tic-Tac-Toe game using HTML,CSS,JS where you na play with your friend using X and O.",
     link: "./Tic Tac Toe/index.html",
     image:
       "https://www.gamesver.com/wp-content/uploads/2022/02/Hand-drawn-tic-tac-toe-game.png.webp",
   },
   {
-    title: "Wether Application",
+    title: "Weather Application",
     discription:
       "Weather Application using HTML,CSS,JS where you can enter a city to find it's weather details like temperature and humidity .",
     link: "./weatherApplication/index.html",
@@ -158,19 +158,24 @@ const projects = [
     discription:
       "A simple website to play the Hangman game using HTML, CSS, and JavaScript.",
     link: "./JavaScript Hangman Game project/index.html",
-    image: "https://www.marketjs.com/game/thumbnail/cached/ahVzfm1hcmtldGpzLWVudGVycHJpc2VyEQsSBEdhbWUYgIDAi7bizAgM"
+    image:
+      " https://media.istockphoto.com/id/165812595/de/vektor/galgenm%C3%A4nnchen-kreide-board.jpg?s=612x612&w=0&k=20&c=UPBBzjl-AYvWRVBog5HrGPbma3J2GUuQNzreonE7KPw=",
+
   },
   {
     title: "Dynamic Online Resume",
     discription:
       "A simple Dynamic Online resume website using HTML, CSS, and JavaScript.",
     link: "./DYNAMIC ONLINE RESUME/index.html",
-    image: "https://cdn-images.zety.com/templates/zety/cv-maker-template-cascade@3x.png"
+
+    image:
+      "https://images.unsplash.com/photo-1586281380349-632531db7ed4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+
   },
   {
-    title: "Image Backgroud Remover",
+    title: "Image Background Remover",
     discription:
-      "A simple Image Backgroud Remover website using HTML, CSS, and JavaScript.",
+      "A simple Image Background Remover website using HTML, CSS, and JavaScript.",
     link: "./Image Background remover/index.html",
     image:
       "https://www.remove.bg/images/samples/combined/s5.jpg",
@@ -181,6 +186,7 @@ const projects = [
       "A simple Palindrome  checker website using HTML, CSS, and JavaScript.",
     link: "./Palindrome Checker/index.html",
     image: "https://res.cloudinary.com/practicaldev/image/fetch/s--4zVmP4DH--/c_imagga_scale,f_auto,fl_progressive,h_720,q_auto,w_1280/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nxsxf8vwik9bn9c6c6b4.jpg"
+
   },
   {
     title: "Note taking application",
@@ -188,6 +194,7 @@ const projects = [
       "A simple note taking application website using HTML, CSS, and JavaScript.",
     link: "./Note Taking Application/index.html",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_M6SzMy82SMHPAcWvpDIZoTiPKYXvhxnswA&usqp=CAU"
+
   },
   {
     title: "Password Generator",
