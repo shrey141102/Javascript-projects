@@ -235,6 +235,13 @@ const projects = [
     link: "./Word Scramble/index.html",
     image: "https://dictionary.cambridge.org/external/images/wordscramble-og-image.png"
   }
+  {
+    title: "Hide/Show password",
+    discription:
+      "A project made using HTML, CSS and JS which can be integrated easily to your website for better security when entering password in public spaces.",
+    link: "./Hide-show-pass/index.html",
+    image: "https://i.ytimg.com/vi/Nnzt6_ISbOk/maxresdefault.jpg"
+  }
 ];
 
 const cards = document.getElementsByClassName("cards");
