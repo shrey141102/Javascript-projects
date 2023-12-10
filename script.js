@@ -158,16 +158,14 @@ const projects = [
     discription:
       "A simple website to play the Hangman game using HTML, CSS, and JavaScript.",
     link: "./JavaScript Hangman Game project/index.html",
-    image:
-      "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F165812595%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board.jpg%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3DUPBBzjl-AYvWRVBog5HrGPbma3J2GUuQNzreonE7KPw%3D&tbnid=JI6XV0U5WdauNM&vet=12ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ..i&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board-gm165812595-19652106&docid=gsJd8onnjFbbgM&w=612&h=357&q=hangman%20game&hl=en&ved=2ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ",
+    image: "https://www.marketjs.com/game/thumbnail/cached/ahVzfm1hcmtldGpzLWVudGVycHJpc2VyEQsSBEdhbWUYgIDAi7bizAgM"
   },
   {
     title: "Dynamic Online Resume",
     discription:
       "A simple Dynamic Online resume website using HTML, CSS, and JavaScript.",
     link: "./DYNAMIC ONLINE RESUME/index.html",
-    image:
-      "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F165812595%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board.jpg%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3DUPBBzjl-AYvWRVBog5HrGPbma3J2GUuQNzreonE7KPw%3D&tbnid=JI6XV0U5WdauNM&vet=12ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ..i&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board-gm165812595-19652106&docid=gsJd8onnjFbbgM&w=612&h=357&q=hangman%20game&hl=en&ved=2ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ",
+    image: "https://cdn-images.zety.com/templates/zety/cv-maker-template-cascade@3x.png"
   },
   {
     title: "Image Backgroud Remover",
@@ -175,23 +173,21 @@ const projects = [
       "A simple Image Backgroud Remover website using HTML, CSS, and JavaScript.",
     link: "./Image Background remover/index.html",
     image:
-      "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F165812595%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board.jpg%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3DUPBBzjl-AYvWRVBog5HrGPbma3J2GUuQNzreonE7KPw%3D&tbnid=JI6XV0U5WdauNM&vet=12ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ..i&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board-gm165812595-19652106&docid=gsJd8onnjFbbgM&w=612&h=357&q=hangman%20game&hl=en&ved=2ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ",
+      "https://www.remove.bg/images/samples/combined/s5.jpg",
   },
   {
     title: "Palindrome Checker",
     discription:
       "A simple Palindrome  checker website using HTML, CSS, and JavaScript.",
     link: "./Palindrome Checker/index.html",
-    image:
-      "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F165812595%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board.jpg%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3DUPBBzjl-AYvWRVBog5HrGPbma3J2GUuQNzreonE7KPw%3D&tbnid=JI6XV0U5WdauNM&vet=12ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ..i&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board-gm165812595-19652106&docid=gsJd8onnjFbbgM&w=612&h=357&q=hangman%20game&hl=en&ved=2ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ",
+    image: "https://res.cloudinary.com/practicaldev/image/fetch/s--4zVmP4DH--/c_imagga_scale,f_auto,fl_progressive,h_720,q_auto,w_1280/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nxsxf8vwik9bn9c6c6b4.jpg"
   },
   {
     title: "Note taking application",
     discription:
       "A simple note taking application website using HTML, CSS, and JavaScript.",
     link: "./Note Taking Application/index.html",
-    image:
-      "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F165812595%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board.jpg%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3DUPBBzjl-AYvWRVBog5HrGPbma3J2GUuQNzreonE7KPw%3D&tbnid=JI6XV0U5WdauNM&vet=12ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ..i&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board-gm165812595-19652106&docid=gsJd8onnjFbbgM&w=612&h=357&q=hangman%20game&hl=en&ved=2ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_M6SzMy82SMHPAcWvpDIZoTiPKYXvhxnswA&usqp=CAU"
   },
   {
     title: "Password Generator",
@@ -224,8 +220,14 @@ const projects = [
     link: "./Age-calculator/age_cal.html",
     image:
       "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/562/259/datas/original.png",
+  },
+  {
+    title: "Word Scramble",
+    discription:
+      "Word scramble game made using HTML, CSS and JS",
+    link: "./Word Scramble/index.html",
+    image: "https://dictionary.cambridge.org/external/images/wordscramble-og-image.png"
   }
-
 ];
 
 const cards = document.getElementsByClassName("cards");
