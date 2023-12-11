@@ -241,6 +241,13 @@ const projects = [
       "Its a basics Javascript snake game using DOM Event.",
     link: "./Snake_Game/index.html",
     image: "https://w7.pngwing.com/pngs/543/374/png-transparent-snake-2000-classic-nokia-game-slither-worm-snake-a-classic-snake-game-classic-game-snake-ii-snake-food-animals-grass-thumbnail.png"
+  },
+  {
+    title: "Sudoku Game",
+    discription:
+      "Sudoku Game game made using HTML, CSS and JS",
+    link: "./Sudoku Game/index.html",
+    image: "./Sudoku Game/bozhin-karaivanov-yqcWOAHH1Rs-unsplash.jpg"
   }
   
 ];
