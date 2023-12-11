@@ -234,6 +234,13 @@ const projects = [
       "Word scramble game made using HTML, CSS and JS",
     link: "./Word Scramble/index.html",
     image: "https://dictionary.cambridge.org/external/images/wordscramble-og-image.png"
+  },
+  {
+    title: "Sudoku Game",
+    discription:
+      "Sudoku Game game made using HTML, CSS and JS",
+    link: "./Sudoku Game/index.html",
+    image: "./Sudoku Game/bozhin-karaivanov-yqcWOAHH1Rs-unsplash.jpg"
   }
 ];
 
