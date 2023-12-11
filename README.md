@@ -41,9 +41,14 @@ Open for contributions.
 
 Check this [file](https://github.com/shrey141102/Javascript-projects/blob/main/CONTRIBUTING.md) for steps to contribute.
 
+Please read the `CONTRIBUTING.md` file carefully before submitting a PR.
+Also, make sure your PR fulfills the required conditions present in the PR template.
+
 Please update this README file by adding your project name.
 
 Also remember to add a README inside your project directory explaining what your project is.
+
+Please avoid adding same projects again and again. (unless it has a very different approach/ui)
 
 <h2>💻 Built with</h2>
 
@@ -54,5 +59,3 @@ Technologies used in the project:
 - Javascript
 - HTML
 - CSS
-
-please feel free to use any technology while building the project. It can be AI or Blockchain or anything. Just remeber that it should be able to work with and intergrate with the website.
