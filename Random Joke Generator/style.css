@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik",sans-serif;
+}
+body{
+    background-color: #fab22e;
+}
+.wrapper{
+    width: 80vmin;
+    padding: 50px 40px;
+    background-color: #15161a;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    box-shadow: 20px 20px 40px rgba(97,63,0,0.4);
+}
+span{
+    display: block;
+    text-align: center;
+    font-size: 100px;
+}
+p{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 35px;
+    margin: 30px 0;
+    opacity: 0;
+}
+.fade{
+    opacity: 1;
+    transition: opacity 1.5s;
+}
+button{
+    display: block;
+    background-color: #fab22e;
+    border: none;
+    padding: 5px;
+    font-size: 18px;
+    color: #171721;
+    font-weight: 600;
+    padding: 12px 25px;
+    margin: 0 auto;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+/*This CSS code provides styles for a webpage with a wrapper containing an emoji, a paragraph for displaying jokes, and a button for fetching random jokes. Here's an explanation of the CSS styles:
+
+Universal Selector Reset:
+
+css
+Copy code
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+Applies a reset to remove default padding and margin on all elements.
+Sets the box-sizing property to border-box to include padding and border in the element's total width and height.
+Specifies the "Rubik" font for the entire document.
+Body Styling:
+
+css
+Copy code
+body {
+    background-color: #fab22e;
+}
+Sets the background color of the entire body to a shade of yellow (#fab22e).
+
+Wrapper Styling:
+
+css
+Copy code
+.wrapper {
+    width: 80vmin;
+    padding: 50px 40px;
+    background-color: #15161a;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    box-shadow: 20px 20px 40px rgba(97, 63, 0, 0.4);
+}
+Styles the wrapper div:
+Sets its width to 80vmin (viewport minimum width).
+Provides padding inside the wrapper.
+Sets the background color to a dark shade (#15161a).
+Positions it absolutely in the center of the viewport using transform and top/left properties.
+Adds a border-radius for rounded corners.
+Applies a box shadow for a subtle visual effect.
+Emoji Styling:
+
+css
+Copy code
+span {
+    display: block;
+    text-align: center;
+    font-size: 100px;
+}
+Styles the span element:
+
+Sets it to block-level, making it a block container.
+Centers the text inside the span.
+Sets the font size to 100px.
+Paragraph Styling:
+
+css
+Copy code
+p {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 35px;
+    margin: 30px 0;
+    opacity: 0;
+}
+Styles the p (paragraph) element:
+
+Sets the font size to 16px.
+Sets the text color to white (#ffffff).
+Sets the font weight to 400 (normal).
+Centers the text inside the paragraph.
+Allows word wrapping.
+Sets the line height to 35px.
+Adds margin above and below the paragraph.
+Initializes the opacity to 0, making it initially invisible.
+Fade Effect Styling:
+
+css
+Copy code
+.fade {
+    opacity: 1;
+    transition: opacity 1.5s;
+}
+Styles the .fade class:
+
+Sets the opacity to 1 (fully visible) when the class is applied.
+Specifies a transition effect for the opacity property over 1.5 seconds.
+Button Styling:
+
+css
+Copy code
+button {
+    display: block;
+    background-color: #fab22e;
+    border: none;
+    padding: 5px;
+    font-size: 18px;
+    color: #171721;
+    font-weight: 600;
+    padding: 12px 25px;
+    margin: 0 auto;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+Styles the button element:
+
+Sets it to block-level.
+Defines background color.
+Removes border and adds padding.
+Sets font size, color, and weight.
+Adds more padding and margin for spacing.
+Applies border-radius for rounded corners.
+Sets a pointer cursor for better usability.
+Removes the default outline.
+Overall, these styles create a visually appealing and centered layout for displaying jokes with a fade-in effect on the paragraph. The color scheme includes shades of yellow and dark gray for a modern and cohesive design.
+
+
+
+
+
