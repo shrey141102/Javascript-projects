@@ -102,7 +102,7 @@ const projects = [
   },
   {
     title: "Analog Clock",
-    discription: "A simple Analig Clock with dark and light mode.",
+    discription: "A simple Analog Clock with light and dark mode.",
     link: "./Analog Clock/index.html",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjIRzrebpgt4uF79ewd_AjUjjJ8vqp9PwW6Q&usqp=CAU",
@@ -124,13 +124,13 @@ const projects = [
   {
     title: "Tic-Tac-Toe",
     discription:
-      "Tic-Tac-Toe game using HTML,CSS,JS where you na play with your freind using x and o .",
+      "Tic-Tac-Toe game using HTML,CSS,JS where you na play with your friend using X and O.",
     link: "./Tic Tac Toe/index.html",
     image:
       "https://www.gamesver.com/wp-content/uploads/2022/02/Hand-drawn-tic-tac-toe-game.png.webp",
   },
   {
-    title: "Wether Application",
+    title: "Weather Application",
     discription:
       "Weather Application using HTML,CSS,JS where you can enter a city to find it's weather details like temperature and humidity .",
     link: "./weatherApplication/index.html",
@@ -159,39 +159,42 @@ const projects = [
       "A simple website to play the Hangman game using HTML, CSS, and JavaScript.",
     link: "./JavaScript Hangman Game project/index.html",
     image:
-      "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F165812595%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board.jpg%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3DUPBBzjl-AYvWRVBog5HrGPbma3J2GUuQNzreonE7KPw%3D&tbnid=JI6XV0U5WdauNM&vet=12ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ..i&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board-gm165812595-19652106&docid=gsJd8onnjFbbgM&w=612&h=357&q=hangman%20game&hl=en&ved=2ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ",
+      " https://media.istockphoto.com/id/165812595/de/vektor/galgenm%C3%A4nnchen-kreide-board.jpg?s=612x612&w=0&k=20&c=UPBBzjl-AYvWRVBog5HrGPbma3J2GUuQNzreonE7KPw=",
+
   },
   {
     title: "Dynamic Online Resume",
     discription:
       "A simple Dynamic Online resume website using HTML, CSS, and JavaScript.",
     link: "./DYNAMIC ONLINE RESUME/index.html",
+
     image:
-      "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F165812595%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board.jpg%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3DUPBBzjl-AYvWRVBog5HrGPbma3J2GUuQNzreonE7KPw%3D&tbnid=JI6XV0U5WdauNM&vet=12ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ..i&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board-gm165812595-19652106&docid=gsJd8onnjFbbgM&w=612&h=357&q=hangman%20game&hl=en&ved=2ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ",
+      "https://images.unsplash.com/photo-1586281380349-632531db7ed4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+
   },
   {
-    title: "Image Backgroud Remover",
+    title: "Image Background Remover",
     discription:
-      "A simple Image Backgroud Remover website using HTML, CSS, and JavaScript.",
+      "A simple Image Background Remover website using HTML, CSS, and JavaScript.",
     link: "./Image Background remover/index.html",
     image:
-      "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F165812595%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board.jpg%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3DUPBBzjl-AYvWRVBog5HrGPbma3J2GUuQNzreonE7KPw%3D&tbnid=JI6XV0U5WdauNM&vet=12ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ..i&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board-gm165812595-19652106&docid=gsJd8onnjFbbgM&w=612&h=357&q=hangman%20game&hl=en&ved=2ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ",
+      "https://www.remove.bg/images/samples/combined/s5.jpg",
   },
   {
     title: "Palindrome Checker",
     discription:
       "A simple Palindrome  checker website using HTML, CSS, and JavaScript.",
     link: "./Palindrome Checker/index.html",
-    image:
-      "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F165812595%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board.jpg%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3DUPBBzjl-AYvWRVBog5HrGPbma3J2GUuQNzreonE7KPw%3D&tbnid=JI6XV0U5WdauNM&vet=12ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ..i&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board-gm165812595-19652106&docid=gsJd8onnjFbbgM&w=612&h=357&q=hangman%20game&hl=en&ved=2ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ",
+    image: "https://res.cloudinary.com/practicaldev/image/fetch/s--4zVmP4DH--/c_imagga_scale,f_auto,fl_progressive,h_720,q_auto,w_1280/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nxsxf8vwik9bn9c6c6b4.jpg"
+
   },
   {
     title: "Note taking application",
     discription:
       "A simple note taking application website using HTML, CSS, and JavaScript.",
     link: "./Note Taking Application/index.html",
-    image:
-      "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F165812595%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board.jpg%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3DUPBBzjl-AYvWRVBog5HrGPbma3J2GUuQNzreonE7KPw%3D&tbnid=JI6XV0U5WdauNM&vet=12ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ..i&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fde%2Fvektor%2Fgalgenm%25C3%25A4nnchen-kreide-board-gm165812595-19652106&docid=gsJd8onnjFbbgM&w=612&h=357&q=hangman%20game&hl=en&ved=2ahUKEwji15qI4P2BAxUtb2wGHQvhBSQQMygAegQIARBQ",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_M6SzMy82SMHPAcWvpDIZoTiPKYXvhxnswA&usqp=CAU"
+
   },
   {
     title: "Password Generator",
@@ -208,8 +211,45 @@ const projects = [
     link: "./expense tracker/index.html",
     image:
       "https://img.freepik.com/premium-photo/flat-design-illustration-facebook-social-network-groups_863013-52875.jpg?w=740",
+  },
+  {
+    title: "Text to speech",
+    discription:
+      "Text to speech converter made using HTML, CSS and JS",
+    link: "./Text-to-speech/index.html",
+    image:
+      "https://miro.medium.com/v2/resize:fit:700/1*yDgVdq8--I5pUyGodlzswg.jpeg#",
+  },
+  {
+    title: "Age calculator",
+    discription:
+      "Age calculator made using HTML, CSS and JS",
+    link: "./Age-calculator/age_cal.html",
+    image:
+      "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/562/259/datas/original.png",
+  },
+  {
+    title: "Word Scramble",
+    discription:
+      "Word scramble game made using HTML, CSS and JS",
+    link: "./Word Scramble/index.html",
+    image: "https://dictionary.cambridge.org/external/images/wordscramble-og-image.png"
+  },
+  {
+    title: "Snake Game",
+    discription:
+      "Its a basics Javascript snake game using DOM Event.",
+    link: "./Snake_Game/index.html",
+    image: "https://w7.pngwing.com/pngs/543/374/png-transparent-snake-2000-classic-nokia-game-slither-worm-snake-a-classic-snake-game-classic-game-snake-ii-snake-food-animals-grass-thumbnail.png"
+  },
+  {
+    title: "Sudoku Game",
+    discription:
+      "Sudoku Game game made using HTML, CSS and JS",
+    link: "./Sudoku Game/index.html",
+    image: "./Sudoku Game/bozhin-karaivanov-yqcWOAHH1Rs-unsplash.jpg"
   }
-
+  
 ];
 
 const cards = document.getElementsByClassName("cards");
