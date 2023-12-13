@@ -16,7 +16,7 @@
 - Dynamic Online Resume
 - E-Commerce Website
 - Expense tracker
-- Guess my number
+- Guess My Number
 - Hangman Game
 - Happy Birthday Wisher
 - Image Background Remover
