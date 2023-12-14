@@ -234,6 +234,13 @@ const projects = [
       "Word scramble game made using HTML, CSS and JS",
     link: "./Word Scramble/index.html",
     image: "https://dictionary.cambridge.org/external/images/wordscramble-og-image.png"
+  },
+  {
+    title: "Unsrcramble Mania",
+    discription:
+      "Word scramble game made using HTML, CSS and JS with timer and hint feature enabled and fully responsive",
+    link: "./Unscramble Mania/index.html",
+    image: "https://img.freepik.com/free-vector/word-puzzle-concept-illustration_114360-12731.jpg?w=740&t=st=1702556891~exp=1702557491~hmac=be9cc8b97e00ed3dcaa895a06983d8e72e0a53f09fd53e1a16442f6cbee6cbdd"
   }
 ];
 
