@@ -8,9 +8,7 @@ HTML
 CSS
 JavaScript
 
-![Game image](<Screenshot 2023-12-14 174549.png>)
-![Game image](<Screenshot 2023-12-14 174624.png>) 
-![Game image](<Screenshot 2023-12-14 174604.png>)
+
 
 ## Getting Started
 Just click on the link and you will be able play the game in your browser
