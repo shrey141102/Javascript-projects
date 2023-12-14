@@ -30,4 +30,4 @@ To reset the scrambled word, click on the Refresh Word button.
 Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 ## Contact
-Your Name - Souvik Sural - souvik13109@example.com
+ Souvik Sural - souvik13109@example.com
