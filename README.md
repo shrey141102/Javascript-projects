@@ -1,61 +1,70 @@
-<h1 align="center" id="title">Javascript Projects</h1>
+# Getting Started with Create React App
 
-<p align="center"><img src="https://socialify.git.ci/shrey141102/Javascript-projects/image?description=1&amp;descriptionEditable=A%20collection%20of%20many%20javascript%20projects.%20%0AFeel%20free%20to_%20contribute%2C%20add%20projects%20or%20make%20changes%20to%20it.&amp;font=Source%20Code%20Pro&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Floating%20Cogs&amp;theme=Auto" alt="project-image"></p>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<h2>🤩List of projects:</h2>
+## Available Scripts
 
-- Calculator
-- Guess my number
-- Drum Kit
-- To-Do
-- Temperature Converter
-- BMI
-- Happy Birthday Wisher
-- Micro Code Editor in the Browser
-- E-Commerce Website
-- Stopwatch
-- Simon Game
-- Javascript Projects Main Website
-- Quotes Generator
-- Rock Paper Scissors
-- URL Shortener
-- Music Plyer
-- Analog Clock
-- QR Code Generator
-- Tic Tac Toe
-- Weather Appliation
-- Dynamic JS Quiz
-- Galaxy Generator
-- Hangman Game
-- Skycast (weather app)
-- Background Color Changer
-- BLog Website
-- Expense tracker
-- Word Scramble
-- Snake Game
+In the project directory, you can run:
 
-  
-<h2>🍰 Contribution Guidelines:</h2>
+### `npm start`
 
-Open for contributions.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Check this [file](https://github.com/shrey141102/Javascript-projects/blob/main/CONTRIBUTING.md) for steps to contribute.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Please read the `CONTRIBUTING.md` file carefully before submitting a PR.
-Also, make sure your PR fulfills the required conditions present in the PR template.
+### `npm test`
 
-Please update this README file by adding your project name.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Also remember to add a README inside your project directory explaining what your project is.
+### `npm run build`
 
-Please avoid adding same projects again and again. (unless it has a very different approach/ui)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-<h2>💻 Built with</h2>
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-<h4>Built by people around the globe. 🌐🧑‍🤝‍🧑</h4>
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Technologies used in the project:
+### `npm run eject`
 
-- Javascript
-- HTML
-- CSS
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
