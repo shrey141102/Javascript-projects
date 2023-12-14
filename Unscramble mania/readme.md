@@ -2,7 +2,7 @@ A word unscrambling game where you need to find a valid word from the scrambled 
 
 
 
-Built With
+**Built With**
 HTML
 CSS
 JavaScript
