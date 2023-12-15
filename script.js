@@ -292,6 +292,13 @@ const projects = [
     link: "./Skycast (weather app)/index.html",
     image: "https://static.toiimg.com/thumb/msid-92058071,width-1280,height-720,resizemode-4/92058071.jpg"
   },
+  {
+    title: "Color Fliper",
+    discription:
+      "A simple website made with HTML, CSS and JS to get different color codes and also view the color in the background",
+    link: "Color-flipper/hex.html",
+    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDd4egYjl9JWA--VrLpIi0IBH9-6upHLczwwfMjnlhgA3B9W4tAeF5qHJW84d3svyNgJ1a7RO2kt3PwdR6zqPLp9elWfO_1a8OMPbq4hBm4SJA1UQaEMDlwHTRv8kB_S2LL9MtPuup_WK4d8Dm8y5iGuBhCzIf9dwZ4iQMFimpo3ESSlSKPBiL6eK1Fg/s1280/Copy%20of%20Copy%20of%20SVG%20in%20HTML%20(2).png"
+  },
 ];
 
 const cards = document.getElementsByClassName("cards");
