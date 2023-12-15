@@ -248,8 +248,43 @@ const projects = [
       "Sudoku Game game made using HTML, CSS and JS",
     link: "./Sudoku Game/index.html",
     image: "./Sudoku Game/bozhin-karaivanov-yqcWOAHH1Rs-unsplash.jpg"
-  }
-  
+  },
+  {
+    title: "Background Color Changer",
+    discription:
+      "This application is a very simple implementation of javascript. We can change the background colors using this.",
+    link: "./BackgroundColorChanger/index.html",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1n2RNoTcdhE-FsqbbSdgdgqPbPofAOxGlcA&usqp=CAU"
+  },
+  {
+    title: "Blog Website",
+    discription:
+      "A simple blog website made using HTML, CSS and Javascript",
+    link: "./Blog Website/index.html",
+    image: "https://static.wixstatic.com/media/0e0314_856bdf8b5611413aad5e1f2559656d2f~mv2.png/v1/fill/w_640,h_370,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0e0314_856bdf8b5611413aad5e1f2559656d2f~mv2.png"
+  },
+  {
+    title: "Dice Game",
+    discription:
+      "Want to settle bets with your friends? Use this game to decide who wins by rolling the dice",
+    link: "./Dice-game/dicee.html",
+    image: "https://cdn.shopify.com/s/files/1/0057/6408/7896/files/of-games-random.jpg?v=1584024761"
+  },
+  {
+    title: "Rock Paper Scissors",
+    discription:
+      "A classic game now turned into a javascript project. Play rock-paper-scissors and experience the nostalgia",
+    link: "./Rock Paper Scissor/index.html",
+    image: "https://files.realpython.com/media/Rock-Paper-Scissors-Make-Your-First-Python-Game_Watermarked.107e6ff4060c.jpg"
+  },
+
+  {
+    title: "Skycast Weather App",
+    discription:
+      "A weather application built using HTML, CSS and JavaScript",
+    link: "./Skycast (weather app)/index.html",
+    image: "https://static.toiimg.com/thumb/msid-92058071,width-1280,height-720,resizemode-4/92058071.jpg"
+  },
 ];
 
 const cards = document.getElementsByClassName("cards");
