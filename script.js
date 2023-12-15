@@ -336,3 +336,23 @@ function createCard(title, discription, link, image) {
 projects.map((e) => {
   createCard(e.title, e.discription, e.link, e.image);
 });
+
+// ----------Scroll to top button ---------
+document.addEventListener("DOMContentLoaded", function () {
+  var scrollButton = document.getElementById("top");
+
+  // Show or hide the scroll button based on the scroll position
+  window.onscroll = function () {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      scrollButton.style.display = "block";
+    } else {
+      scrollButton.style.display = "none";
+    }
+  };
+
+  // Scroll to the top when the button is clicked
+  scrollButton.addEventListener("click", function () {
+    var projectsSection = document.getElementById("Bottom");
+    projectsSection.scrollIntoView({ behavior: "smooth" });
+  });
+});
