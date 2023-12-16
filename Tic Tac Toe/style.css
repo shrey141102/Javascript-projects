@@ -1,3 +1,10 @@
+nav{
+  background-color: aqua;
+  color: black;
+  height: 32px;
+  font-size: 27px;
+  align-items: center;
+}
 #tic-tac-toe-board {
   display: block;
   margin: 0 auto;

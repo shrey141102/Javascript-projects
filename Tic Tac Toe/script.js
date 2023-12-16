@@ -1,3 +1,10 @@
+<<<<<<< Updated upstream
+=======
+
+const playerOne = 'X';
+const playerTwo = 'O';
+const lineColor = "#445069";
+>>>>>>> Stashed changes
 
 var player = 1;
 var lineColor = "#445069";
@@ -127,7 +134,126 @@ function getCanvasMousePosition(event) {
   return {
     x: event.clientX - rect.left,
     y: event.clientY - rect.top
+<<<<<<< Updated upstream
   }
+=======
+  };
+}
+
+function checkForWinner() {
+  // Check for diagonal win
+  if (
+    (board[0][0] !== "" && board[0][0] === board[1][1] && board[1][1] === board[2][2]) ||
+    (board[0][2] !== "" && board[0][2] === board[1][1] && board[1][1] === board[2][0])
+  ) {
+    return board[1][1];
+  }
+
+  // Check for row and column win
+  for (let i = 0; i < 3; i++) {
+    // Check rows
+    if (
+      (board[i][0] !== "" && board[i][0] === board[i][1] && board[i][1] === board[i][2])
+    ) {
+      return board[i][0];
+    }
+
+    // Check columns
+    if (
+      (board[0][i] !== "" && board[0][i] === board[1][i] && board[1][i] === board[2][i])
+    ) {
+      return board[0][i];
+    }
+  }
+
+  return null;
+}
+
+function getWinningLine() {
+  if (
+    (board[0][0] !== "" && board[0][0] === board[1][1] && board[1][1] === board[2][2])
+  ) {
+    return { type: "diagonal", index: 0 };
+  } else if (
+    (board[0][2] !== "" && board[0][2] === board[1][1] && board[1][1] === board[2][0])
+  ) {
+    return { type: "diagonal", index: 1 };
+  }
+  for (let i = 0; i < 3; i++) {
+    if (
+      (board[i][0] !== "" && board[i][0] === board[i][1] && board[i][1] === board[i][2])
+    ) {
+      return { type: "row", index: i };
+    }
+  }
+  for (let i = 0; i < 3; i++) {
+    if (
+      (board[0][i] !== "" && board[0][i] === board[1][i] && board[1][i] === board[2][i])
+    ) {
+      return { type: "column", index: i };
+    }
+  }
+
+  return null;
+}
+
+function drawWinningLine() {
+  if (winningLine) {
+    context.strokeStyle = "#FF0000";
+    context.lineWidth = 8;
+
+    if (winningLine.type === "column") {
+      const y = (winningLine.index + 0.5) * sectionSize;
+      context.beginPath();
+      context.moveTo(0, y);
+      context.lineTo(canvasSize, y);
+      context.stroke();
+    } else if (winningLine.type === "row") {
+      const x = (winningLine.index + 0.5) * sectionSize;
+      context.beginPath();
+      context.moveTo(x, 0);
+      context.lineTo(x, canvasSize);
+      context.stroke();
+    } else if (winningLine.type === "diagonal") {
+      if (winningLine.index === 0) {
+        context.beginPath();
+        context.moveTo(0, 0);
+        context.lineTo(canvasSize, canvasSize);
+        context.stroke();
+      } else if (winningLine.index === 1) {
+        context.beginPath();
+        context.moveTo(0, canvasSize);
+        context.lineTo(canvasSize, 0);
+        context.stroke();
+      }
+    }
+  } else {
+    console.error("No winning line detected!");
+  }
+}
+
+function isBoardFull() {
+  for (let row = 0; row < 3; row++) {
+    for (let col = 0; col < 3; col++) {
+      if (board[row][col] === "") {
+        return false;
+      }
+    }
+  }
+  return true;
+}
+
+function resetGame() {
+  context.clearRect(0, 0, canvasSize, canvasSize);
+  currentPlayer = playerOne;
+  winningLine = null;
+  for (let i = 0; i < 3; i++) {
+    for (let j = 0; j < 3; j++) {
+      board[i][j] = "";
+    }
+  }
+  drawLines(10, lineColor);
+>>>>>>> Stashed changes
 }
 
 canvas.addEventListener('mouseup', function (event) {
