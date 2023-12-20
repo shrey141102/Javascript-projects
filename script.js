@@ -67,7 +67,7 @@ const projects = [
     "This is a simple weight converter that supports conversion between the units Kilograms, Stones, Pounds and Ounces and vice versa. Automatic conversion is done as you type.",
     link: "./Weight-Converter/index.html",
     image:
-      ""
+      "https://github.com/Baron105/JS-projects/assets/76466796/b1a75134-eecf-4dbd-870d-6378ff71df86"
   },
   {
     title: "Temperature Converter",
