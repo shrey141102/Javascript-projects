@@ -62,6 +62,14 @@ const projects = [
       "https://media.istockphoto.com/id/1366275800/vector/stopwatch-timer-speed-being-held-by-a-persons-hand.jpg?b=1&s=612x612&w=0&k=20&c=-4d6m0i6z9iACH0kDAyC2p2Z-ykIJH5zHjp2303gj2Q=",
   },
   {
+    title: "Length Converter",
+    discription:
+      "This is a simple length converter that supports conversion between the units Feet and Meters, Inches and Centimeters, Kilometers and Miles and vice versa. Automatic conversion is done as you type.",
+    link: "./Length-Converter/index.html",
+    image:
+      "https://github.com/Baron105/JS-projects/assets/76466796/34343ff9-41ff-4a70-b306-1ffd2da2d8d5",
+  },
+  {
     title: "Weight Converter",
     discription:
     "This is a simple weight converter that supports conversion between the units Kilograms, Stones, Pounds and Ounces and vice versa. Automatic conversion is done as you type.",
