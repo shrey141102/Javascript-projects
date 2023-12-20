@@ -38,6 +38,7 @@
 - To-Do
 - URL Shortener
 - Weather Appliation
+- Weight Converter
 - Word Scramble
 - Snake Game
 

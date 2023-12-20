@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a simple weight converter that converts supports conversion between the units Kilograms, Stones, Pounds and Ounces and vice versa. It is built using HTML, CSS and JavaScript.
+This is a simple weight converter that supports conversion between the units Kilograms, Stones, Pounds and Ounces and vice versa. It is built using HTML, CSS and JavaScript.
 
 ## How to use
 

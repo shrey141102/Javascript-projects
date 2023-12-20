@@ -62,6 +62,11 @@ const projects = [
       "https://media.istockphoto.com/id/1366275800/vector/stopwatch-timer-speed-being-held-by-a-persons-hand.jpg?b=1&s=612x612&w=0&k=20&c=-4d6m0i6z9iACH0kDAyC2p2Z-ykIJH5zHjp2303gj2Q=",
   },
   {
+    title: "Weight Converter",
+    discription:
+      "Weight Converter is a web-based project that offers users the ability to convert their weight from one unit to another.",
+  },
+  {
     title: "Temperature Converter",
     discription:
       "In this project, user just have to type from which temperature they want to convert to which temperature. It will automatically convert the temperature from one to another.",
