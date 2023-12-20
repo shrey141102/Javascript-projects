@@ -64,7 +64,10 @@ const projects = [
   {
     title: "Weight Converter",
     discription:
-      "Weight Converter is a web-based project that offers users the ability to convert their weight from one unit to another.",
+    "This is a simple weight converter that supports conversion between the units Kilograms, Stones, Pounds and Ounces and vice versa. Automatic conversion is done as you type.",
+    link: "./Weight-Converter/index.html",
+    image:
+      ""
   },
   {
     title: "Temperature Converter",
