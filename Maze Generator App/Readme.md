@@ -1,0 +1,1 @@
+This maze generator game provides an interactive experience where the player navigates through a randomly generated maze to reach the end. The game includes visual elements, user input handling, and responsive design to enhance the overall gaming experience.
