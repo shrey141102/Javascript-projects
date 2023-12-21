@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maze</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div id="page">
+
+    <div id="Message-Container">
+      <div id="message">
+        <h1>Congratulations!</h1>
+        <p>You are done.</p>
+        <p id="moves"></p>
+        <input id="okBtn" type="button" onclick="toggleVisablity('Message-Container')" value="Cool!" />
+      </div>
+    </div>
+
+    <br>
+    <div id="menu">
+      <div class="custom-select">
+        <select id="diffSelect">
+                  <option value="10">Easy</option>
+                  <option value="15">Medium</option>
+                  <option value="25">Hard</option>
+                  <option value="38">Extreme</option>                                      
+              </select>
+      </div>
+      <input id="startMazeBtn" type="button" onclick="makeMaze()" value="Start" />
+    </div>
+
+    <div id="view">
+      <div id="mazeContainer">
+        <canvas id="mazeCanvas" class="border" height="1100" width="1100"></canvas>
+      </div>
+    </div>
+
+    <p id="instructions">Use arrow keys to move the key to the house!</p>
+
+  </div>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
+  
+  <script src="./script.js"></script>
+</body>
+</html>
+<!--Document Type Declaration (<!DOCTYPE html>): This declaration defines the document type and version of HTML being used.
+
+HTML Element (<html>): The root element of the HTML document, and it specifies that the document is in English.
+
+Head Section (<head>): Contains meta-information about the HTML document, such as character set, viewport settings, and links to external resources.
+
+Character Set (<meta charset="UTF-8">): Specifies the character encoding for the document as UTF-8.
+X-UA-Compatible (<meta http-equiv="X-UA-Compatible" content="IE=edge">): Ensures the page renders in the highest mode available for the version of Internet Explorer.
+Viewport (<meta name="viewport" content="width=device-width, initial-scale=1.0">): Defines the viewport properties for responsive design.
+Title (<title>Maze</title>): Sets the title of the web page, which appears in the browser tab.
+Link to Stylesheet (<link rel="stylesheet" href="./style.css">): Links an external stylesheet to the HTML document.
+Body Section (<body>): Contains the content of the HTML document.
+
+Message Container (<div id="Message-Container">...</div>): Container for displaying a congratulatory message when the maze is completed. It includes a title, paragraphs, and a button.
+Menu (<div id="menu">...</div>): Contains a dropdown menu to select the difficulty level and a button to start the maze.
+View (<div id="view">...</div>): Contains the maze canvas where the maze will be displayed.
+Instructions (<p id="instructions">...</p>): Provides instructions for playing the maze game.
+JavaScript and jQuery (<script>): Includes references to jQuery and jQuery TouchSwipe libraries, and a custom JavaScript file (script.js) for scripting behavior on the web page. The jQuery library is often used to simplify DOM manipulation and event handling.
+
+jQuery (<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>): Links to the jQuery library.
+jQuery TouchSwipe (<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>): Links to the jQuery TouchSwipe library.
+Custom JavaScript (<script src="./script.js"></script>): Links to a custom JavaScript file (script.js) for additional scripting related to the maze game.-->

@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+#view {
+    margin-top: 30px;
+}
+
+#mazeContainer {
+    top: 15px;
+    opacity: 0;
+    display: inline-block;
+    margin: auto;
+    border-radius: 10px;
+}
+#mazeContainer #mazeCanvas {
+    margin: 0;
+    display: block;
+    border: solid 2px black;
+    height: 400px;
+}
+input, select {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.30);
+    height: 45px;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    appearance: none;
+}
+input:hover, select:hover {
+	background-color: rgba(0, 0, 0, 0.70);
+}
+input:active, select:active {
+	background-color: black;
+}
+input:focus, select:focus {
+	outline: none;
+}
+.custom-select {
+	display: inline-block;
+}
+.custom-select select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: 125px center;
+}
+#Message-Container {
+    visibility: hidden;
+    color: white;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.30);
+    z-index: 1;
+}
+#Message-Container #message {
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+}
+#page {
+	text-align: center;
+	height: auto;
+	width: auto;
+	margin: auto;
+}
+#page #menu {
+    margin: auto;
+    padding: 10px;
+    height: 65px;
+    box-sizing: border-box;
+}
+#page #menu h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 3.2rem;
+}
+#page #view {
+    position: absolute;
+    top: 65px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+}
+.border {
+    border: 10px black solid;
+    border-radius: 10px;
+}
+
+#instructions {
+    margin-top: 425px;
+}
+ 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 400px) {
+	input, select {
+	    width: 120px;
+	}
+}
+/*This CSS code provides styling for the HTML elements in your web page. Here's an explanation of the different parts:
+
+Font Import (@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');): Imports the "Poppins" font from Google Fonts and sets it as the font for the entire document.
+
+Global Styles (html, body {...}): Applies styles to the HTML and body elements.
+
+Fixed Positioning (position: fixed;): Makes the HTML and body elements fixed in position, covering the entire viewport.
+Full Viewport Height and Width (width: 100vw; height: 100vh;): Sets the width and height to cover the entire viewport.
+Margin and Padding (margin: 0; padding: 0;): Removes default margin and padding.
+Background Color (background-color: #fff;): Sets the background color to white.
+Font Family (font-family: 'Poppins', sans-serif;): Sets the font to "Poppins" and falls back to a sans-serif font if "Poppins" is not available.
+Styling for #view and #mazeContainer:
+
+Margin and Opacity for #view (#view { margin-top: 30px; }): Adds top margin to the #view element.
+Styling for #mazeContainer (#mazeContainer {...}): Styles for the maze container, including opacity, display, and border-radius.
+Styling for Input and Select Elements (input, select {...}):
+
+Cursor and Background Color (cursor: pointer; background-color: rgba(0, 0, 0, 0.30);): Sets the cursor to pointer and adds a semi-transparent black background to input and select elements.
+Dimensions (height: 45px; width: 150px;): Sets the height and width of input and select elements.
+Padding, Border, and Border Radius (padding: 10px; border: none; border-radius: 5px;): Adds padding, removes the border, and sets border-radius.
+Text Color and Font Size (color: white; font-size: 15px;): Sets text color to white and font size.
+Hover, Active, and Focus Styles (input:hover, select:hover {...}): Defines styles for hover, active, and focus states.
+Styling for Custom Select ( .custom-select {...}):
+
+Display (display: inline-block;): Sets the display property for the custom-select container.
+Styling for Custom Select Dropdown ( .custom-select select {...}): Styles for the select element within the custom-select container.
+Styling for Message Container (#Message-Container {...}):
+
+Visibility and Background Color (visibility: hidden; background-color: rgba(0, 0, 0, 0.30);): Sets the initial visibility to hidden and adds a semi-transparent black background.
+Fixed Positioning and Z-Index (position: fixed; z-index: 1;): Fixes the position and sets the z-index to ensure the message container appears above other elements.
+Styling for Message (#Message-Container #message {...}):
+
+Positioning (position: fixed; top: 50%; left: 50%; margin-left: -150px; margin-top: -150px;): Positions the message box at the center of the viewport.
+Styling for #page and #menu (#page {...} #page #menu {...}):
+
+Text Alignment (text-align: center;): Centers the text within the #page element.
+Height for #menu (height: 65px;): Sets the height for the #menu element.
+Box Sizing (box-sizing: border-box;): Ensures that padding and border are included in the total width and height.
+Media Query (@media only screen and (max-width: 400px) {...}): Adjusts styles for extra small devices with a maximum width of 400 pixels.
+
+Styles for Input and Select on Small Screens (input, select {...}): Adjusts the width of input and select elements for small screens.
+Border Styles for .border Class (.border {...}): Defines styles for elements with the "border" class, including border width and border-radius.
+
+Styling for #instructions (#instructions {...}): Sets the margin-top for the instructions element.
+
+These styles collectively contribute to the overall appearance and responsiveness of your web page.
