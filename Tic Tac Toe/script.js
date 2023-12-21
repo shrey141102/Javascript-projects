@@ -227,7 +227,7 @@ function isBoardFull() {
   }
   return true;
 }
-bu
+
 function resetGame() {
   context.clearRect(0, 0, canvasSize, canvasSize);
   currentPlayer = playerOne;
