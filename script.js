@@ -62,6 +62,14 @@ const projects = [
       "https://media.istockphoto.com/id/1366275800/vector/stopwatch-timer-speed-being-held-by-a-persons-hand.jpg?b=1&s=612x612&w=0&k=20&c=-4d6m0i6z9iACH0kDAyC2p2Z-ykIJH5zHjp2303gj2Q=",
   },
   {
+    title: "Weight Converter",
+    discription:
+    "This is a simple weight converter that supports conversion between the units Kilograms, Stones, Pounds and Ounces and vice versa. Automatic conversion is done as you type.",
+    link: "./Weight-Converter/index.html",
+    image:
+      "https://github.com/Baron105/JS-projects/assets/76466796/b1a75134-eecf-4dbd-870d-6378ff71df86"
+  },
+  {
     title: "Temperature Converter",
     discription:
       "In this project, user just have to type from which temperature they want to convert to which temperature. It will automatically convert the temperature from one to another.",
