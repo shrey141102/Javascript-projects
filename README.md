@@ -21,6 +21,7 @@
 - Happy Birthday Wisher
 - Image Background Remover
 - Javascript Projects Main Website
+- Memory Game of Tiles
 - Micro Code Editor in the Browser
 - Music Player  
 - Note Taking Application
