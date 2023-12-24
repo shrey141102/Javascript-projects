@@ -7,7 +7,6 @@ Chess is a classic two-player strategy board game that involves moving pieces on
 The goal of chess is to checkmate your opponent's king, which means putting the king in a position where it is under attack and cannot escape capture.
 
 ## The Board
-![Chess Board](https://link-to-chess-board-image.com)
 
 The chess board consists of 64 squares, alternately light and dark. Players sit facing each other with the board placed between them.
 
@@ -19,7 +18,6 @@ The chess board consists of 64 squares, alternately light and dark. Players sit 
 5. **Bishop:** Moves diagonally any number of squares.
 6. **Pawn:** Moves forward one square, captures diagonally. On its first move, a pawn can advance two squares.
 
-![Chess Pieces](https://link-to-chess-pieces-image.com)
 
 ## Gameplay
 Players take turns to make a move. Each turn consists of moving one of your pieces according to its rules. The game continues until one player achieves checkmate or a draw is declared.
