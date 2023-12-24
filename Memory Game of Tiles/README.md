@@ -1,5 +1,8 @@
 # Memory Game of Tiles
+
 ## Description
+
+This is a memory-based game in which he/she should match pairs of tiles. Both moves and time count, so faster, the better. It is built using HTML, CSS, Javascript.
 
 ## Screenshots
 
