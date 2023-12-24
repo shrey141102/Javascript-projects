@@ -321,6 +321,14 @@ const projects = [
     image:
       'https://images.squarespace-cdn.com/content/v1/5509b13ce4b07f1f960ce802/1556758087399-ZUI9UEFSV9Y9JR5PZF1I/image-asset.jpeg',
   },
+
+  {
+    title: "Chess Game",
+    discription: "Immerse yourself in the strategic world of chess with our Chess Game web application. Sharpen your skills, challenge opponents, and enjoy the timeless game of kings, all in a user-friendly online environment.",
+    link: "./Chess game/index.html",
+    image: "https://observer.com/wp-content/uploads/sites/2/2014/12/172016427.jpg?quality=80&strip"
+  },
+
 ];
 
 const cards = document.getElementsByClassName('cards');
