@@ -314,7 +314,7 @@ const projects = [
       'https://cms-assets.tutsplus.com/cdn-cgi/image/width=850/uploads/users/158/posts/38726/final_image/DigitalClockTextEffect0.jpg',
   },
   {
-    title: 'Memory Game to Tiles',
+    title: 'Memory Game of Tiles',
     discription:
       'This simple memory-based web game in which he/she should match pairs of tiles. Both moves and time count, so faster, the better.',
     link: './Memory Game of Tiles/index.html',
