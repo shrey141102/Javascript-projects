@@ -21,10 +21,11 @@
 - Happy Birthday Wisher
 - Image Background Remover
 - Javascript Projects Main Website
+- Memory Game of Tiles
 - Micro Code Editor in the Browser
-- Music Player  
+- Music Player
 - Note Taking Application
-- Palindrome Checker 
+- Palindrome Checker
 - Password Generator
 - QR Code Generator
 - Quotes Generator
@@ -42,7 +43,6 @@
 - Word Scramble
 - Snake Game
 
-  
 <h2>🍰 Contribution Guidelines:</h2>
 
 Open for contributions.

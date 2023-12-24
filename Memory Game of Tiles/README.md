@@ -1,6 +1,11 @@
 # Memory Game of Tiles
+
 ## Description
+
+This simple memory-based web game in which he/she should match pairs of tiles. Both moves and time count, so faster, the better. It is built using HTML, CSS AND Javascript.
+
 ## Screenshots
+
 ![Screenshot 2023-12-24 014358](https://github.com/Yarlin16/Javascript-projects-fork/assets/119430739/e7f3911a-852e-4a6e-91cd-b730847b03a2)
 
 ![Screenshot 2023-12-24 014417](https://github.com/Yarlin16/Javascript-projects-fork/assets/119430739/49305946-8dba-4ce2-80ac-fd5962c74589)
