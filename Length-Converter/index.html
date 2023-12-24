@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Length Converter</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h2>Length Converter</h2>
+
+    <div class="converter">
+      <div class="conversion">
+        <h3>Feet to Meters:</h3>
+        <label for="inputFeet">Feet</label>
+        <input id="inputFeet" type="number" placeholder="Feet">
+        <p>Meters: <span id="outputMeters"></span></p>
+      </div>
+
+      <div class="conversion">
+        <h3>Meters to Feet:</h3>
+        <label for="inputMetres">Meters</label>
+        <input id="inputMetres" type="number" placeholder="Meters">
+        <p>Feet: <span id="outputFeet"></span></p>
+      </div>
+
+      <div class="conversion">
+        <h3>Centimeters to Inches:</h3>
+        <label for="inputcm">cm</label>
+        <input id="inputcm" type="number" placeholder="cm">
+        <p>Inches: <span id="outputInches"></span></p>
+      </div>
+
+      <div class="conversion">
+        <h3>Inches to Centimeters:</h3>
+        <label for="inputInches">Inches</label>
+        <input id="inputInches" type="number" placeholder="Inches">
+        <p>cm: <span id="outputcm"></span></p>
+      </div>
+
+      <div class="conversion">
+        <h3>Miles to Kilometers:</h3>
+        <label for="inputMiles">Miles</label>
+        <input id="inputMiles" type="number" placeholder="Miles">
+        <p>Kilometers: <span id="outputKm"></span></p>
+      </div>
+
+      <div class="conversion">
+        <h3>Kilometers to Miles:</h3>
+        <label for="inputKm">Kilometers</label>
+        <input id="inputKm" type="number" placeholder="Kilometers">
+        <p>Miles: <span id="outputMiles"></span></p>
+      </div>
+
+      <div class="conversion">
+        <h3>Meters to Yards:</h3>
+        <label for="inputMetersYard">Meters</label>
+        <input id="inputMetersYard" type="number" placeholder="Meters">
+        <p>Yards: <span id="outputYards"></span></p>
+      </div>
+
+      <div class="conversion">
+        <h3>Yards to Meters:</h3>
+        <label for="inputYards">Yards</label>
+        <input id="inputYards" type="number" placeholder="Yards">
+        <p>Meters: <span id="outputMetersYard"></span></p>
+      </div>
+    </div>
+
+    <h3>Formulae Used</h3>
+    <p>m = ft / 3.2808</p>
+    <p>ft = m * 3.2808</p>
+    <p>in = cm * 0.39370</p>
+    <p>cm = in / 0.39370</p>
+    <p>km = miles * 1.60934</p>
+    <p>miles = km / 1.60934</p>
+    <p>yards = meters * 1.09361</p>
+    <p>meters = yards / 1.09361</p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
