@@ -333,7 +333,7 @@ const projects = [
   {
     title: "Chess Game",
     discription: "Immerse yourself in the strategic world of chess with our Chess Game web application. Sharpen your skills, challenge opponents, and enjoy the timeless game of kings, all in a user-friendly online environment.",
-    link: "./Chess game/index.html",
+    link: "Chess game/index.html",
     image: "https://observer.com/wp-content/uploads/sites/2/2014/12/172016427.jpg?quality=80&strip"
   },
 
