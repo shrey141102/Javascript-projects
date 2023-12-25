@@ -37,6 +37,7 @@
 - Temperature Converter
 - Text-to-Speech
 - Tic Tac Toe
+- Time Zone Converter
 - To-Do
 - URL Shortener
 - Weather Appliation
