@@ -146,6 +146,14 @@ const projects = [
       'https://www.gamesver.com/wp-content/uploads/2022/02/Hand-drawn-tic-tac-toe-game.png.webp',
   },
   {
+    title: 'Time Zone Converter',
+    discription:
+      'Time Zone Converter built using HTML,CSS,JS where you can convert time from one time zone to another.',
+    link: './Time Zone Converter/index.html',
+    image:
+      'https://private-user-images.githubusercontent.com/116413038/292760606-c7a4c710-6635-4636-ad6d-f10bbc5f2c55.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDM1MTI5MzYsIm5iZiI6MTcwMzUxMjYzNiwicGF0aCI6Ii8xMTY0MTMwMzgvMjkyNzYwNjA2LWM3YTRjNzEwLTY2MzUtNDYzNi1hZDZkLWYxMGJiYzVmMmM1NS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjI1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIyNVQxMzU3MTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xM2EzMTk3YjEwMTgyODYxZGQ4NjEwOGViYmE4MDIyY2FlMjg1ZjA0Nzk1MTQ0MmJjODNhZmI4ZDFmNGJkNzFiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.-wKeevRbeht32I6iEH4NjOR_p-F8nobfE8moPQ_R1CA',
+  },
+  {
     title: 'Weather Application',
     discription:
       "Weather Application using HTML,CSS,JS where you can enter a city to find it's weather details like temperature and humidity .",
