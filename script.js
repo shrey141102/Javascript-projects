@@ -146,6 +146,14 @@ const projects = [
       'https://www.gamesver.com/wp-content/uploads/2022/02/Hand-drawn-tic-tac-toe-game.png.webp',
   },
   {
+    title: 'Time Zone Converter',
+    discription:
+      'Time Zone converter is built using HTML, CSS, and JS where you can convert given time from one time zone to another.',
+    link: './Time Zone Converter/index.html',
+    image:
+      'https://www.htmlstrip.com/images/thumbs/time-zone-converter.jpg',
+  },
+  {
     title: 'Weather Application',
     discription:
       "Weather Application using HTML,CSS,JS where you can enter a city to find it's weather details like temperature and humidity .",
