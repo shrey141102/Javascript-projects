@@ -348,7 +348,7 @@ const projects = [
     title: "Magic 8 ball",
     discription: "Welcome to the Magic 8 Ball project! This simple web application allows users to ask a question and receive a mysterious and random answer from the virtual Magic 8 Ball.",
     link: "Magic-8-ball/index.html",
-    image: "https://www.adweek.com/wp-content/uploads/files/magic-8-hed-2015.jpg"
+    image: "https://thehoneypop.com/wp-content/uploads/2023/06/Copy-of-We-Want-To-See-These-Fall-Out-Boy-Songs-In-Our-future.png"
   }
 
 
