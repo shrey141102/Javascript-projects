@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ccc;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.1rem;
+}
+
+.info{
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 2rem;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input__info{
+    height: 26px;
+    border: none;
+    border-radius: 10px;
+    color: #111;
+    padding-left: 10px;
+}
+
+.input__color{
+    color: #ffffff;
+}
+
+.info .btn{
+    padding: 0;
+    border: black 1px solid;
+    padding: 5px;
+    background: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: #ffffff;
+}
+
+.app__title{
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding: 2rem;
+    font-weight: 300;
+}
+
+.app__info{
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    padding: 0 1rem;
+    margin: 2rem 0;
+}
+
+.magicball__outer{
+    width: 300px;
+    height: 300px;
+    background-color: #111;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem, 0;
+    box-shadow: 10px 10px 30px rgb(11, 38, 216), -10px -10px 30px rgb(4, 42, 114);
+    position: relative;
+}
+
+.magicball__inner{
+    width: 150px;
+    height: 150px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.magicball__response{
+    text-align: center;
+    font-size: 8rem;
+    color: #222;
+    line-height: 1.2rem;
+}
+
+.magicball__spotlight{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 5px;
+    border-radius: 50%;
+    background: #333;
+    opacity: 0.07;
+}
+
+.magicball__bg__shadow{
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    top: 0px;
+    border-radius: 50%;
+    background: #666;
+    opacity: 0.05;
+}
+
+.magicball__upper__shadow{
+    position: absolute;
+    width: 75px;
+    height: 50px;
+    top: 5px;
+    background: #191919;
+    opacity: 0.8;
+    border-radius: 50%;
+}
+
+.magicball__lower__shadow{
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    top: 5px;
+    background: #191919;
+    opacity: 0.8;
+    border-radius: 50%;
+}

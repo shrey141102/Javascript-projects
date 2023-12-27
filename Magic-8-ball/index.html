@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic 8 ball</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3 class="app__title">Magic 8 ball</h3>
+    <p class="app__info">Just ask a question and click below to see what the Magic 8 ball has to say.</p>
+    <div class="info"><label for="input__info" class="input__color">Enter your Question: &nbsp;</label>
+       <input type="text" class="input__info" id="in__info">
+       <button type="submit" class="btn" id="magicbutton" onclick="magicBallClick()">Ask</button>
+    </div> 
+    <br><br><br>
+    <div class="magicball__outer" id="mb-container">
+        <div class="magicball__inner">
+            <h3 class="magicball__response" id="response">8</h3>
+        </div>
+        <div class="magicball__spotlight"></div>
+        <div class="magicball__bg__shadow"></div>
+        <div class="magicball__upper__shadow"></div>
+        <div class="magicball__lower__shadow"></div>
+    </div>
+    <p class="app__info">For more accuracy, make sure to concentrate very hard on your question!</p>
+    <script src="script.js"></script>
+</body>
+</html>
