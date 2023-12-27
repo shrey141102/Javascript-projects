@@ -344,6 +344,13 @@ const projects = [
     link: "Chess game/index.html",
     image: "https://observer.com/wp-content/uploads/sites/2/2014/12/172016427.jpg?quality=80&strip"
   },
+  {
+    title: "Magic 8 ball",
+    discription: "Welcome to the Magic 8 Ball project! This simple web application allows users to ask a question and receive a mysterious and random answer from the virtual Magic 8 Ball.",
+    link: "Magic-8-ball/index.html",
+    image: "https://www.adweek.com/wp-content/uploads/files/magic-8-hed-2015.jpg"
+  }
+
 
 ];
 
