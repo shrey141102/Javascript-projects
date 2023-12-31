@@ -17,3 +17,7 @@ ScrollReveal().reveal(".banner__text,.cards__item", {
 	origin: "top",
 	distance: "50px",
 });
+ScrollReveal().reveal(".footer__copy", {
+	delay: 300,
+	origin: "bottom",
+});
