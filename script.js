@@ -348,6 +348,11 @@ const projects = [
     discription: "Welcome to the Magic 8 Ball project! This simple web application allows users to ask a question and receive a mysterious and random answer from the virtual Magic 8 Ball.", 
     link: "Magic-8-ball/index.html", 
     image: "https://www.adweek.com/wp-content/uploads/files/magic-8-hed-2015.jpg" 
+  },
+  { title: "Time Watcher",
+    discription: "This a simple project where i created a time watcher website using only html, css and js, which can shows the time from the entered date to the currect in the milli-seconds precise order.", 
+    link: "TimeWatcher/index.html", 
+    image: "https://github.com/shrey141102/Javascript-projects/assets/114330097/f86f3485-cd24-445c-b1a9-11fa9c0fb58e" 
   }
 
 ];
