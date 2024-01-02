@@ -353,6 +353,11 @@ const projects = [
     discription: "This a simple project where i created a time watcher website using only html, css and js, which can shows the time from the entered date to the currect in the milli-seconds precise order.", 
     link: "TimeWatcher/index.html", 
     image: "https://github.com/shrey141102/Javascript-projects/assets/114330097/f86f3485-cd24-445c-b1a9-11fa9c0fb58e" 
+  },
+  { title: "Flappy bird clone",
+    discription: "This is a simple implementation of the classic Flappy Bird game using HTML, CSS, and JavaScript. The game features a bird that the player controls by pressing the spacebar or the up arrow key to avoid pipes and earn points.", 
+    link: "Flappy-bird/index.html", 
+    image: "https://imageio.forbes.com/blogs-images/ccuster/files/2014/02/flappybird.jpg?height=400&width=711&fit=bounds" 
   }
 
 ];
