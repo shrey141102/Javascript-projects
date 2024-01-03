@@ -353,7 +353,12 @@ const projects = [
     discription: "This is a simple implementation of the classic Flappy Bird game using HTML, CSS, and JavaScript. The game features a bird that the player controls by pressing the spacebar or the up arrow key to avoid pipes and earn points.", 
     link: "Flappy-bird/index.html", 
     image: "https://imageio.forbes.com/blogs-images/ccuster/files/2014/02/flappybird.jpg?height=400&width=711&fit=bounds" 
-  }
+  },
+  { title: "Text-Editor",
+    discription: "This is a simple text editor made using HTML, CSS and JS,which has features like bold,italic,underline,font-size,font-family,font-color,background-color,save and clear.", 
+    link: "Text-Editor/index.html", 
+    image: "https://img.freepik.com/free-vector/hand-drawn-essay-illustration_23-2150268421.jpg?w=740&t=st=1704262791~exp=1704263391~hmac=aee5b752fe168a85e20a6db35cafd9f429b2161b62cb7a6fe19621caeb0c1072" 
+  },
 
 ];
 
