@@ -353,7 +353,12 @@ const projects = [
     discription: "This is a simple implementation of the classic Flappy Bird game using HTML, CSS, and JavaScript. The game features a bird that the player controls by pressing the spacebar or the up arrow key to avoid pipes and earn points.", 
     link: "Flappy-bird/index.html", 
     image: "https://imageio.forbes.com/blogs-images/ccuster/files/2014/02/flappybird.jpg?height=400&width=711&fit=bounds" 
-  }
+  },
+  { title: "Audio Analyser",
+  discription: "This a simple project where i created a amplification wave of the sound using only html, css and js, which can be shows according to the pitch of the user's sound.", 
+  link: "AudioAnalyser/index.html", 
+  image: "https://github.com/shrey141102/Javascript-projects/assets/114330097/1f68df5e-b745-43a7-a63a-d55211694848" 
+}
 
 ];
 
