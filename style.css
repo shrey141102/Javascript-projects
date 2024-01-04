@@ -80,8 +80,10 @@ img {
   flex-direction: column;
   overflow: hidden;
   &:hover {
+    transform: scale(1.08);
     .card__image {
       filter: contrast(100%);
+      cursor: pointer;
     }
   }
   @media(max-width: 1209px) {
