@@ -36,6 +36,7 @@
 - Stopwatch
 - Temperature Converter
 - Text-to-Speech
+- Text-Editor
 - Tic Tac Toe
 - Time Zone Converter
 - To-Do
