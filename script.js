@@ -372,6 +372,11 @@ const projects = [
   discription: "This a simple project where i created a amplification wave of the sound using only html, css and js, which can be shows according to the pitch of the user's sound.", 
   link: "AudioAnalyser/index.html", 
   image: "https://github.com/shrey141102/Javascript-projects/assets/114330097/1f68df5e-b745-43a7-a63a-d55211694848" 
+  },
+  { title: "PokeDex",
+  discription: "Welcome to PokeDex, a simple web application that allows you to explore information about different Pokémon! This project utilizes HTML, CSS, and JavaScript to create a user-friendly interface for viewing Pokémon details.", 
+  link: "PokeDex/index.html", 
+  image: "https://i.pinimg.com/736x/3d/a9/07/3da907557c4a47e9bc0df33bc2bb3bdd.jpg" 
   }
 ];
 
