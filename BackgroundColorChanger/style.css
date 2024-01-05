@@ -11,7 +11,13 @@ body {
 
 h1 {
 	color: #6203e0;
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
+}
+
+p {
+	font-family: monospace;
+	padding: 5px;
+	font-size: large;
 }
 
 #colorbox {
