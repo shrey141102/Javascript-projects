@@ -372,6 +372,11 @@ const projects = [
   discription: "This a simple project where i created a amplification wave of the sound using only html, css and js, which can be shows according to the pitch of the user's sound.", 
   link: "AudioAnalyser/index.html", 
   image: "https://github.com/shrey141102/Javascript-projects/assets/114330097/1f68df5e-b745-43a7-a63a-d55211694848" 
+  },
+  { title: "Factorial Calculator",
+  discription: "This project can calculate factorial of the very large numbers.", 
+  link: "Factorial-Calculator/index.html", 
+  image: "https://github.com/shrey141102/Javascript-projects/assets/114330097/1c3e626e-40b3-4ee3-9f0c-ab92263d39c3" 
   }
 ];
 
