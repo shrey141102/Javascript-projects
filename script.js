@@ -377,6 +377,11 @@ const projects = [
   discription: "Welcome to PokeDex, a simple web application that allows you to explore information about different Pokémon! This project utilizes HTML, CSS, and JavaScript to create a user-friendly interface for viewing Pokémon details.", 
   link: "PokeDex/index.html", 
   image: "https://i.pinimg.com/736x/3d/a9/07/3da907557c4a47e9bc0df33bc2bb3bdd.jpg" 
+  },
+  { title: "Factorial Calculator",
+  discription: "This project can calculate factorial of the very large numbers.", 
+  link: "Factorial-Calculator/index.html", 
+  image: "https://github.com/shrey141102/Javascript-projects/assets/114330097/1c3e626e-40b3-4ee3-9f0c-ab92263d39c3" 
   }
 ];
 
