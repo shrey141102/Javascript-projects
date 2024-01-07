@@ -56,7 +56,7 @@ Enhance your online security with the Password Generator. Create strong, unique 
 # QR Code Generator
 Streamline information sharing with the QR Code Generator. Easily convert text or URLs into QR codes for quick and efficient data transfer.
 # Quotes Generator
-Find inspiration at your fingertips. The Quotes Generator delivers a daily dose of motivation and wisdom, making each day brighter with thoughtful words.
+Find inspiration at your fingertips The Quotes Generator delivers a daily dose of motivation and wisdom, making each day brighter with thoughtful words.
 # Rock Paper Scissors
 Settle decisions the classic way with Rock Paper Scissors. Enjoy a digital twist to this timeless hand game, adding an element of chance to your choices.
 # Simon Game
