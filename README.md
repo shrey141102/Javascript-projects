@@ -87,6 +87,8 @@ Effortlessly convert weights between different units with the Weight Converter. 
 Unscramble your way through words with the Word Scramble game. Exercise your vocabulary and pattern recognition skills in this engaging word puzzle.
 # Snake Game
 Embark on a classic gaming adventure with the Snake Game. Navigate the snake to collect points while avoiding collisions, offering a nostalgic gaming experience.
+# Pomodoro Timer
+The Pomodoro Timer is a minimalist time management tool based on the Pomodoro Technique. Enhance productivity with customizable work intervals, short breaks, and notifications.
 
 <h2>🍰 Contribution Guidelines:</h2>
 
