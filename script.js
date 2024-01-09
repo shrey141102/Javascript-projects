@@ -393,6 +393,11 @@ const projects = [
   link: "Space-invaders/index.html", 
   image: "https://gamerhub.co.uk/wp-content/uploads/2020/11/what.jpg" 
   },
+  { title: "Pomodoro Timer",
+  discription: "A pomodoro timer for your productivity built with HTML,CSS and JS.", 
+  link: "Pomodoro Timer/index.html", 
+  image: "https://www.pexels.com/photo/alarm-clock-lying-on-multicolored-surface-1314544/" 
+  },
 ];
 
 const cards = document.getElementsByClassName('cards');
