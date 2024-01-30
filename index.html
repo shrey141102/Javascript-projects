@@ -2,7 +2,11 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="BannerStyle.css" />
   <link rel="stylesheet" href="Footer.css" />
-  <link rel="shortcut icon" type="image/x-icon" href="https://www.computerhope.com/jargon/j/javascript.png" />
+  <link
+    rel="shortcut icon"
+    type="image/x-icon"
+    href="https://www.computerhope.com/jargon/j/javascript.png"
+  />
   <meta name="theme-color" content="#daa37f" />
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   <title>JavaScript Projects</title>
@@ -21,8 +25,10 @@
         <a href="#Bottom" class="btnBanner btn--opacity">Projects</a>
       </div>
       <a href="#Bottom">
-        <img class="banner__scroll-down"
-          src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAxMjkgMTI5IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMjkgMTI5IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4Ij4KICA8Zz4KICAgIDxwYXRoIGQ9Im0xMjEuMywzNC42Yy0xLjYtMS42LTQuMi0xLjYtNS44LDBsLTUxLDUxLjEtNTEuMS01MS4xYy0xLjYtMS42LTQuMi0xLjYtNS44LDAtMS42LDEuNi0xLjYsNC4yIDAsNS44bDUzLjksNTMuOWMwLjgsMC44IDEuOCwxLjIgMi45LDEuMiAxLDAgMi4xLTAuNCAyLjktMS4ybDUzLjktNTMuOWMxLjctMS42IDEuNy00LjIgMC4xLTUuOHoiIGZpbGw9IiNGRkZGRkYiLz4KICA8L2c+Cjwvc3ZnPgo=" />
+        <img
+          class="banner__scroll-down"
+          src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAxMjkgMTI5IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMjkgMTI5IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4Ij4KICA8Zz4KICAgIDxwYXRoIGQ9Im0xMjEuMywzNC42Yy0xLjYtMS42LTQuMi0xLjYtNS44LDBsLTUxLDUxLjEtNTEuMS01MS4xYy0xLjYtMS42LTQuMi0xLjYtNS44LDAtMS42LDEuNi0xLjYsNC4yIDAsNS44bDUzLjksNTMuOWMwLjgsMC44IDEuOCwxLjIgMi45LDEuMiAxLDAgMi4xLTAuNCAyLjktMS4ybDUzLjktNTMuOWMxLjctMS42IDEuNy00LjIgMC4xLTUuOHoiIGZpbGw9IiNGRkZGRkYiLz4KICA8L2c+Cjwvc3ZnPgo="
+        />
       </a>
     </div>
   </div>
@@ -31,6 +37,13 @@
     <a id="Bottom"></a>
     <h1 class="heading">Projects</h1>
 
+    <!-- search bar for the javascript games  -->
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search for games..." />
+      <button onclick="searchGames()"> Search</button>
+    </div>
+
+    <!-- cards for the javascript games -->
     <ul class="cards"></ul>
     <script src="script.js"></script>
   </div>
@@ -39,26 +52,30 @@
     <div class="footer__links">
       <div class="col social">
         <h1>Creator</h1>
-        <a target="_blank" class="a" href="https://github.com/shrey141102">Shreyansh Khaitan <i
-            class="fa-brands fa-github font"></i></a>
+        <a target="_blank" class="a" href="https://github.com/shrey141102"
+          >Shreyansh Khaitan <i class="fa-brands fa-github font"></i
+        ></a>
       </div>
       <h1 class="slash">/</h1>
       <div class="col social">
         <h1>Website by</h1>
-        <a target="_blank" class="a" href="https://github.com/Infinite-Null">Ankit Kumar Shah <i
-            class="fa-brands fa-github font"></i></a>
+        <a target="_blank" class="a" href="https://github.com/Infinite-Null"
+          >Ankit Kumar Shah <i class="fa-brands fa-github font"></i
+        ></a>
       </div>
       <h1 class="slash">/</h1>
       <div class="col social">
         <h1>Repository</h1>
-        <a target="_blank" class="a" href="https://github.com/shrey141102/Javascript-projects">Github <i
-            class="fa-brands fa-github font"></i></a>
+        <a
+          target="_blank"
+          class="a"
+          href="https://github.com/shrey141102/Javascript-projects"
+          >Github <i class="fa-brands fa-github font"></i
+        ></a>
       </div>
     </div>
     <div class="footer__copy">
-      <p><a href="#">
-          Home
-        </a></p>
+      <p><a href="#"> Home </a></p>
       <p><a href="#">Contact</a></p>
       <p>&copy; 2023 Javascript-projects. All rights reserved.</p>
       <p><a href="#">About</a></p>
