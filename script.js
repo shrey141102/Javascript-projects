@@ -400,15 +400,15 @@ const projects = [
   },
 ];
 
-const cards = document.getElementsByClassName('cards');
+const cards = document.querySelector('.cards');
 
-function createCard(title, discription, link, image) {
+function createCard(title, description, link, image) {
   const li = document.createElement('li');
   li.classList.add('cards__item');
   const div1 = document.createElement('div');
   div1.classList.add('card');
 
-  img = document.createElement('img');
+  const img = document.createElement('img');
   img.classList.add('card__image');
   img.src = image;
 
@@ -422,7 +422,7 @@ function createCard(title, discription, link, image) {
 
   const p = document.createElement('p');
   p.classList.add('card__text');
-  p.innerHTML = discription;
+  p.innerHTML = description;
   div0.appendChild(p);
 
   const a = document.createElement('a');
@@ -437,11 +437,32 @@ function createCard(title, discription, link, image) {
   div1.appendChild(img);
   div1.appendChild(div0);
   li.appendChild(div1);
-  cards[0].appendChild(li);
+  cards.appendChild(li);
+}
+
+// Function to filter and display games based on search input
+function searchGames() {
+  const searchInput = document.getElementById('searchInput').value.toLowerCase();
+
+  // Clear existing cards
+  cards.innerHTML = '';
+
+  // Filter and display cards based on search input
+  const filteredProjects = projects.filter(project =>
+    project.title.toLowerCase().includes(searchInput) || 
+    project.discription.toLowerCase().includes(searchInput)
+  );
+
+  filteredProjects.map(project => {
+    createCard(project.title, project.discription, project.link, project.image);
+  });
 }
 projects.map(e => {
   createCard(e.title, e.discription, e.link, e.image);
 });
+
+
+
 
 // ----------Scroll to top button ---------
 document.addEventListener('DOMContentLoaded', function () {
